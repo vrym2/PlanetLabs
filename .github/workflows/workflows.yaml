@@ -33,5 +33,6 @@ jobs:
     - name: Run tests   
       env: 
         PL_API_KEY: ${{ secrets.PL_API_KEY }}
+        PYTHONPATH : ${{ github.workspace }}  
       run: |
         pytest tests/data/*
