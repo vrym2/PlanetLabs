@@ -1,10 +1,9 @@
 import os
 import requests
 import logging
-import json
-from pprint import pprint
+from planet import Auth
 
-def planet_auth()-> None:
+def PlanetAuth()-> None:
     """Authenticating Planet with API KEY"""
     log = logging.getLogger(__name__)
     PLANET_APIKEY = os.environ.get('PL_API_KEY')
@@ -23,7 +22,7 @@ def planet_auth()-> None:
 
     if req.status_code == 200:
         log.info("Planet data Authentication successful")
+        return Auth.from_key(PLANET_APIKEY)
     else:
         log.debug("Planet data authentication unsuccessful")
-    
-    return req
+        return None

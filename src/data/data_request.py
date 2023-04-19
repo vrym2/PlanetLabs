@@ -1,57 +1,50 @@
 import os
-import planet
-from planet import Auth, Session
 import asyncio
-from typing import List
+from planet import Auth, Session
+from src.data import planet_search
+from pprint import pprint
 
-
-def create_request(
-        location_name: str = None,
-        coordinates_bbox:List = None,
-        order_items: List = None):
-        """Creating a JSON schema to request
-    
-        Args:
-            location_name: Name of the location
-            coordinates_bbox: A list of bounding box coordinates
-            order_item: A list of item ids # Search them here https://www.planet.com/explorer/
-        """
-        # Building an aoi
-        aoi = {
-            "type":
-            "Polygon",
-            "coordinates":[coordinates_bbox]
-        }
-        # Building argument of products
-        products = planet.order_request.product(
-            item_ids = order_items,
-            product_bundle = 'analytic_3b_udm2',
-            item_type = 'PSScene')
-        order = planet.order_request.build_request(
+async def send_request(
+        location_name, 
+        search_filter,
+        download_dir):
+    """Function to send request to Planet service"""
+    PLANET_APIKEY = os.environ.get('PL_API_KEY')
+    client = Auth.from_key(PLANET_APIKEY)
+    async with Session() as sess:
+        cl = sess.client('data')
+        search_json = await cl.create_search(
             name = location_name,
-            products = [products],
-            tools = [planet.order_request.clip_tool(aoi = aoi)])
-        return order
+            search_filter = search_filter,
+            item_types = ["REOrthoTile", "PSScene"])
+        await sess.aclose()
+    
+    async with Session() as sess:
+        cl = sess.client('data')
+        items = cl.run_search(
+            search_id = search_json['id'],
+            limit = 50)
+        items_list = [i async for i in items]
+        await sess.aclose()
 
-async def main(order):
-        auth = Auth.from_env()
-        async with planet.Session(auth = auth) as session:
-            cl = session.client('orders')
-            api_order = await cl.create_order(order)
-            
-if __name__ == "__main__":
-      location_name = 'flotta'
-      coordinates_bbox = [
-             [-3.148045,58.813194],
-             [-3.148045,58.849586],
-             [-3.064338,58.849586],
-             [-3.064338,58.813194],
-             [-3.148045,58.813194]]
-      order_items = ['20230415_110555_20_247f', '20230415_110553_01_247f']
-      order = create_request(
-             location_name = location_name,
-             coordinates_bbox = coordinates_bbox,
-             order_items = order_items)
-      asyncio.run(main(order = order))
-
+    # Getting a single item
+    item = items_list[0]
+    item_id = item['id']
+    item_type = item['properties']['item_type']
+    print(item_id, item_type)
         
+start_date = '2023-04-01'
+end_date = '2023-04-18'
+location_name = 'stanlow'
+cloud_cover = 10 
+download_dir = 'data' 
+search = planet_search()
+request = search.build_request(
+    start_date = start_date,
+    end_date = end_date,
+    location_name = location_name,
+    cloud_cover = cloud_cover)
+asyncio.run(send_request(
+    location_name = location_name,
+    search_filter = request,
+    download_dir = download_dir))

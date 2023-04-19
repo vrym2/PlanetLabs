@@ -1,14 +1,20 @@
 import os
 from math import sqrt
-from json import loads
+import json
 import numpy as np
 import pandas as pd
 import geopandas as gpd
+import geojson
+from shapely.wkt import loads
+from shapely.geometry import mapping
 
-class oilterminals_bbox:
+class OilTerminalsBBox:
     """Class functions of terminal data for Planet"""
-    terminal_file_path = 'data/uk_oil_terminals.xlsx'
+    terminal_file_path = '/home/vardh/gcp_project/planet_UoL/data/uk_oil_terminals.xlsx'
     assert os.path.exists(terminal_file_path) is True
+
+    def __init__(self) -> None:
+        pass
 
     @staticmethod
     def bounding_box(
@@ -49,12 +55,26 @@ class oilterminals_bbox:
         # Getting Polygon WKT string
         return geom.wkt    
 
-    def read_data(self)-> None:
+    def geojson_data(self)-> None:
         """Reading the Oil terminal data"""
         # Load the excel file
         df = pd.read_excel(
             self.terminal_file_path,
             skiprows = 1)
         # Getting all the Lat and Lon
+        location_geojson = {}
         lat_lon = list(zip(df['Lat'], df['Lon']))
+        for index, row in df.iterrows():
+            location = row['Region']
+            location = location.split(',')[0].lower()
+            # Getting the bounding box coords
+            wkt_string = OilTerminalsBBox.bounding_box(
+                center_lat = lat_lon[index][0],
+                center_lon = lat_lon[index][1])
+            geojson_string = geojson.dumps(mapping(loads(wkt_string)))
+            geojson_dict = json.loads(geojson_string)
+            location_geojson[location] = geojson_dict
+        return location_geojson
+
+
         

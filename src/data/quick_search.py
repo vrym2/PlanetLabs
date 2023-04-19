@@ -1,40 +1,53 @@
-import json
-import requests
-import pandas as pd
+import asyncio
+import os
 import numpy as np
 from typing import List
 from datetime import datetime
-from requests.auth import HTTPBasicAuth
+from planet import data_filter, Session, Auth
 
-from planet import data_filter
+from src.data import (
+    OilTerminalsBBox, 
+    instrument_filter,
+    PlanetAuth)
 
 
 class planet_search:
     """Class function to retrieve search results"""
     def __init__(self) -> None:
+        """Declaring variables"""
         pass
 
-    def location_bbox(
-            self, 
-            location_name:str = None)-> None:
-        """Getting the location bbox coords"""
-        filepath = 'data/oil_terminals_bbox.csv'
-        df = pd.read_csv(filepath, header = 1)
-        df_row = df.loc[df['location_name'] == location_name]
-        bbox = df['bounding_coords'].values[0]
-
-    def results(
+    def build_request(
             self,
             start_date:str = None,
             end_date:str = None,
             location_name:str = None,
-            cloud_cover_range:List[np.int32, np.int32] = None            )-> None:
+            cloud_cover:np.int32 = 10)-> None:
         """Get the results in JSON"""
+
         # Date time objects
-        start_date = datetime.strptime(start_date, "%y-%m-%d")
-        end_date = datetime.strptime(end_date, "%y-%m-%d")      
-        date_range = data_filter.date_range_filter(
+        start_date = datetime.strptime(start_date, "%Y-%m-%d")
+        end_date = datetime.strptime(end_date, "%Y-%m-%d")
+
+        # Location bounding box
+        geom_dict = OilTerminalsBBox()
+        geom_dict = geom_dict.geojson_data()
+        geom_dict = geom_dict[location_name]
+
+        # Declaring Date range filter for the search 
+        date_range_filter= data_filter.date_range_filter(
             field_name = 'acquired',
             gte = start_date,
             lte = end_date)
+        # Declaring Geometry bbox filter
+        aoi_set = data_filter.geometry_filter(geom = geom_dict)
+        # Cloud cover filter
+        cloud_cover = data_filter.range_filter('cloud_cover', None, cloud_cover/100)
+
+        # Adding all filters together
+        combined_filter = data_filter.and_filter([
+            date_range_filter, aoi_set, cloud_cover])
+        return combined_filter
+
+
         

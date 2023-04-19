@@ -1,6 +1,6 @@
-from src.data import planet_auth
+from src.data import PlanetAuth
 
 def test_planet_auth():
     """Testing planet authentication"""
-    session = planet_auth()
+    session = PlanetAuth()
     assert session.status_code == 200

@@ -2,6 +2,13 @@ from datetime import datetime
 from typing import List
 import numpy as np
 
+def instrument_filter():
+      """Setting up Instrument filter"""
+      return {
+                  "type": "StringInFilter",
+                  "field_name": "instrument",
+                  "config": ["PS2"]
+                  }
 def date_filter(
             start_date:str = None,
             end_date: str = None):
