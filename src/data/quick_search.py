@@ -1,9 +1,7 @@
-import asyncio
-import os
 import numpy as np
 from typing import List
 from datetime import datetime
-from planet import data_filter, Session, Auth
+from planet import data_filter
 
 from src.data import (
     OilTerminalsBBox, 

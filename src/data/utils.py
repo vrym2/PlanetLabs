@@ -1,4 +1,5 @@
 import os
+import time
 from math import sqrt
 import json
 import numpy as np
@@ -7,6 +8,7 @@ import geopandas as gpd
 import geojson
 from shapely.wkt import loads
 from shapely.geometry import mapping
+
 
 class OilTerminalsBBox:
     """Class functions of terminal data for Planet"""
@@ -76,5 +78,3 @@ class OilTerminalsBBox:
             location_geojson[location] = geojson_dict
         return location_geojson
 
-
-        
