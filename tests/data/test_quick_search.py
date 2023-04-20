@@ -1,4 +1,4 @@
-from src.data import planet_search, send_request
+from src.data import planet_search, json_request
 from pprint import pprint
 
 def test_quick_search():

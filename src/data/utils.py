@@ -18,6 +18,15 @@ class OilTerminalsBBox:
     def __init__(self) -> None:
         pass
 
+    def location_names(self):
+        """Read the xlsx file"""
+        self.df = pd.read_excel(
+            self.terminal_file_path,
+            skiprows = 1)
+        self.locations = self.df['Region'].tolist()
+        self.locations = [loc.split(',')[0].lower() for loc in self.locations]
+        return self.locations
+               
     @staticmethod
     def bounding_box(
             center_lat: np.float64 = None,          
@@ -58,15 +67,11 @@ class OilTerminalsBBox:
         return geom.wkt    
 
     def geojson_data(self)-> None:
-        """Reading the Oil terminal data"""
-        # Load the excel file
-        df = pd.read_excel(
-            self.terminal_file_path,
-            skiprows = 1)
+        """Getting GeoJSON bbox for each location"""
         # Getting all the Lat and Lon
         location_geojson = {}
-        lat_lon = list(zip(df['Lat'], df['Lon']))
-        for index, row in df.iterrows():
+        lat_lon = list(zip(self.df['Lat'], self.df['Lon']))
+        for index, row in self.df.iterrows():
             location = row['Region']
             location = location.split(',')[0].lower()
             # Getting the bounding box coords

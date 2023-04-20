@@ -1,0 +1,51 @@
+{
+    "type": "AndFilter",
+    "config": [
+        {
+            "type": "DateRangeFilter",
+            "field_name": "acquired",
+            "config": {
+                "gte": "2023-03-01T00:00:00Z",
+                "lte": "2023-04-18T00:00:00Z"
+            }
+        },
+        {
+            "type": "GeometryFilter",
+            "field_name": "geometry",
+            "config": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -1.2187870422384166,
+                            60.50035169873287
+                        ],
+                        [
+                            -1.2187870422384166,
+                            60.43773402388186
+                        ],
+                        [
+                            -1.3458280080473033,
+                            60.43773402388186
+                        ],
+                        [
+                            -1.3458280080473033,
+                            60.50035169873287
+                        ],
+                        [
+                            -1.2187870422384166,
+                            60.50035169873287
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "RangeFilter",
+            "field_name": "cloud_cover",
+            "config": {
+                "lt": 0.1
+            }
+        }
+    ]
+}
