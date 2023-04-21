@@ -1,5 +1,3 @@
-import os
-import json
 import numpy as np
 import logging
 import logging.config
@@ -7,6 +5,7 @@ from datetime import datetime
 from planet import data_filter
 
 from src.data import OilTerminalsBBox
+from src.utils import write_json_data
 
 # Loading the config file
 logging.config.fileConfig('logger.ini')
@@ -15,9 +14,11 @@ class planet_search:
     """Class function to retrieve search results"""
     def __init__(
             self,
-            location_name:str = None) -> None:
+            location_name:str = None,
+            output_dir:str = None) -> None:
         """Declaring variables"""
         self.location_name = location_name
+        self.output_dir = output_dir
 
     def build_request(
             self,
@@ -49,21 +50,11 @@ class planet_search:
         # Adding all filters together
         self.combined_filter = data_filter.and_filter([
             date_range_filter, aoi_set, cloud_cover])
+        
+        # Writing data into JSON files
+        write_json_data(self.combined_filter, output_dir, self.location_name)
+
         return self.combined_filter
-    
-    def write_json(self,output_dir:str = None)-> None:
-        """Write the data into json files"""
-        write_path = os.path.join(output_dir, self.location_name)
-        if not os.path.exists(write_path):
-            logging.info(f"Writing {self.location_name}.json build request file")
-            logging.info(f"Find the file here : {write_path}")
-            with open(write_path, 'w') as f:
-                json_data = json.dumps(self.combined_filter, indent = 4)
-                f.write(json_data)
-                f.close()
-            logging.info("Finished!")
-        else:
-            logging.debug(f"{self.location_name}.json already exists")
 
 if __name__ == "__main__":
     start_date = "2023-03-01"
@@ -73,8 +64,8 @@ if __name__ == "__main__":
     location_data = oil_terminal.location_names()
     for location_name in location_data:
         search = planet_search(
-            location_name = location_name)
+            location_name = location_name,
+            output_dir = output_dir)
         search.build_request(
             start_date = start_date,
             end_date = end_date)
-        search.write_json(output_dir = output_dir)

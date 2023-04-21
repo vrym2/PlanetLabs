@@ -1,69 +1,66 @@
 import os
-from planet import Auth, Session
-from src.utils import Loader
+import asyncio
 from typing import Dict
 import logging
 import logging.config
+from planet import Auth, Session
+from src.utils import write_json_data
+from src.data import OilTerminalsBBox
 
 # Loading the config file
 logging.config.fileConfig('logger.ini')
 
-class json_request:
+
+async def PS_items(
+        location_name:str = None, 
+        request_json:Dict = None,
+        output_dir:str = None):
     """Sending request to API to download the data from Planet API service
         Args:
             location_name: Name of the oil terminal location
             request_json: JSON dict request build from 'quick_search.py'
-            download_dir: Download directory
-            download_xml_file: If true, downloads related xml file
-            asset_type_id: Type of the asset
-    """
-    def __init__(
-              self,
-              location_name:str = None, 
-              request_json:Dict = None,
-              download_dir:str = 'data',
-              download_xml_file: bool = False,
-              asset_id_type:str = 'ortho_analytic_4b') -> None:
-         """Declaring variables"""
-         self.location_name = location_name
-         self.request_json = request_json
-         self.download_dir = download_dir
-         self.download_xml_file = download_xml_file
-         self.asset_id_type = asset_id_type
-          
-    async def PS_items(self):
-        # Preparing download dir
-        download_dir = os.path.join(self.download_dir, self.location_name)
-        if not os.path.exists(download_dir):
-            os.makedirs(download_dir)
+    """    
+    # Preparing download dir
+    download_dir = os.path.join(download_dir,location_name)
+    if not os.path.exists(download_dir):
+        os.makedirs(download_dir)
 
-        # Planet API Authentication 
-        logging.info("Authenticating with API")
-        PLANET_APIKEY = os.environ.get('PL_API_KEY')
-        assert PLANET_APIKEY is not None
-        Auth.from_key(PLANET_APIKEY)
-   
-        # Begin the session
-        async with Session() as sess:
-            cl = sess.client('data')
-            logging.info("Creating a search mechanism and running it with API")
+    # Planet API Authentication 
+    logging.info("Authenticating with API")
+    PLANET_APIKEY = os.environ.get('PL_API_KEY')
+    assert PLANET_APIKEY is not None
+    Auth.from_key(PLANET_APIKEY)
 
-            # Creating the search mechanism
-            search_json = await cl.create_search(
-                name = self.location_name,
-                search_filter = self.request_json,
-                item_types = ["REOrthoTile", "PSScene"])
-            
-            # Running the search to retrieve results
-            items = cl.run_search(
-                search_id = search_json['id'],
-                limit = 50)
-            items_list = [i async for i in items]
+    # Begin the session
+    async with Session() as sess:
+        cl = sess.client('data')
+        logging.info("Creating a search mechanism and running it with API")
 
-            if items_list is None:
-                raise Exception("No scenes have been found based on given params")
-            assert items_list is not None
-            return items         
+        # Creating the search mechanism
+        search_json = await cl.create_search(
+            name = location_name,
+            search_filter = request_json,
+            item_types = ["REOrthoTile", "PSScene"])
+        
+        # Running the search to retrieve results
+        items = cl.run_search(
+            search_id = search_json['id'],
+            limit = 50)
+        items_list = [i async for i in items]
+
+        if items_list is None:
+            raise Exception("No scenes have been found based on given params")
+        
+        # Writing JSON data into a file
+        write_json_data(items_list, output_dir, location_name)
+
+        # Closing the session
+        await sess.aclose()
+        return items_list
+
+if __name__ == "__main__":
+    output_dir = 'data/planet_items_scenes_json'
+
 
             # # Retrieving a single scene
             # # TODO add more filtering options here in the future
