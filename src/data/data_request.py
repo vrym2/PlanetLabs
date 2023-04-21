@@ -1,11 +1,11 @@
 import os
+import json
 import asyncio
 from typing import Dict
 import logging
 import logging.config
 from planet import Auth, Session
 from src.utils import write_json_data
-from src.data import OilTerminalsBBox
 
 # Loading the config file
 logging.config.fileConfig('logger.ini')
@@ -20,11 +20,6 @@ async def PS_items(
             location_name: Name of the oil terminal location
             request_json: JSON dict request build from 'quick_search.py'
     """    
-    # Preparing download dir
-    download_dir = os.path.join(download_dir,location_name)
-    if not os.path.exists(download_dir):
-        os.makedirs(download_dir)
-
     # Planet API Authentication 
     logging.info("Authenticating with API")
     PLANET_APIKEY = os.environ.get('PL_API_KEY')
@@ -60,6 +55,16 @@ async def PS_items(
 
 if __name__ == "__main__":
     output_dir = 'data/planet_items_scenes_json'
+    json_requests = 'data/planet_json_reqs'
+    for json_file in os.listdir(json_requests):
+        if json_file.endswith('.json'):
+            with open(os.path.join(json_requests, json_file)) as file:
+                request_json = json.load(file)
+                asyncio.run(PS_items(
+                    location_name = os.path.splitext(json_file)[0],
+                    request_json = request_json,
+                    output_dir = output_dir))
+            file.close()
 
 
             # # Retrieving a single scene
