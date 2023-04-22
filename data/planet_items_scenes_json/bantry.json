@@ -74,7 +74,7 @@
             "cloud_percent": 0,
             "ground_control": false,
             "gsd": 4,
-            "heavy_haze_percent": 0,
+            "heavy  _haze_percent": 0,
             "instrument": "PSB.SD",
             "item_type": "PSScene",
             "light_haze_percent": 0,
