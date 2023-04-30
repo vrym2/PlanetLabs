@@ -22,4 +22,6 @@ async def data_download(
     
     # Filtering scenes
     clear_confidence = filter(lambda a: a['properties']['clear_confidence_percent'] > 50, json_scenes)
+    if len(clear_confidence) == 0:
+        raise Exception(f"There are no scenes with clear confidence greater than 50")
     return list(clear_confidence)
