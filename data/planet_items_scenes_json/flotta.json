@@ -1,6 +1,3828 @@
 [
     {
         "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230506_103831_24_24c8",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230506_103831_24_24c8/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230506_103831_24_24c8/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -4.1846146988958814,
+                        59.122883266505646
+                    ],
+                    [
+                        -4.291149028032624,
+                        58.93915683707314
+                    ],
+                    [
+                        -3.7105319988310197,
+                        58.85209140500425
+                    ],
+                    [
+                        -3.6008271930113454,
+                        59.03583688410303
+                    ],
+                    [
+                        -4.1846146988958814,
+                        59.122883266505646
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230506_103831_24_24c8",
+        "properties": {
+            "acquired": "2023-05-06T10:38:31.246531Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 95,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": false,
+            "gsd": 3.9,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-05-06T15:14:58Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 282.3,
+            "satellite_id": "24c8",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6487039",
+            "sun_azimuth": 147.4,
+            "sun_elevation": 44.1,
+            "updated": "2023-05-07T04:40:53Z",
+            "view_angle": 2,
+            "visible_confidence_percent": 63,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230506_103833_51_24c8",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230506_103833_51_24c8/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230506_103833_51_24c8/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -4.264947964377219,
+                        58.98292735015741
+                    ],
+                    [
+                        -4.370708609867498,
+                        58.79891900990562
+                    ],
+                    [
+                        -3.7922193688930275,
+                        58.712404929848944
+                    ],
+                    [
+                        -3.6834007607827037,
+                        58.89601437217061
+                    ],
+                    [
+                        -4.264947964377219,
+                        58.98292735015741
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230506_103833_51_24c8",
+        "properties": {
+            "acquired": "2023-05-06T10:38:33.515648Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 94,
+            "clear_percent": 99,
+            "cloud_cover": 0.01,
+            "cloud_percent": 1,
+            "ground_control": false,
+            "gsd": 3.9,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-05-06T15:12:54Z",
+            "publishing_stage": "finalized",
+            "quality_category": "test",
+            "satellite_azimuth": 282.6,
+            "satellite_id": "24c8",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6487039",
+            "sun_azimuth": 147.3,
+            "sun_elevation": 44.2,
+            "updated": "2023-05-07T09:58:11Z",
+            "view_angle": 2.1,
+            "visible_confidence_percent": 67,
+            "visible_percent": 99
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230421_110853_91_247d",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230421_110853_91_247d/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230421_110853_91_247d/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.632199833520867,
+                        58.631436915396115
+                    ],
+                    [
+                        -3.7294554825642776,
+                        58.45978967639227
+                    ],
+                    [
+                        -3.1794438255183435,
+                        58.372784200920016
+                    ],
+                    [
+                        -3.078621130643015,
+                        58.544876008982975
+                    ],
+                    [
+                        -3.632199833520867,
+                        58.631436915396115
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230421_110853_91_247d",
+        "properties": {
+            "acquired": "2023-04-21T11:08:53.918547Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 99,
+            "clear_percent": 95,
+            "cloud_cover": 0.05,
+            "cloud_percent": 5,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-22T00:06:02Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283.7,
+            "satellite_id": "247d",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6451060",
+            "sun_azimuth": 158.2,
+            "sun_elevation": 41.6,
+            "updated": "2023-04-22T09:58:41Z",
+            "view_angle": 4.4,
+            "visible_confidence_percent": 76,
+            "visible_percent": 95
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230421_110847_34_247d",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230421_110847_34_247d/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230421_110847_34_247d/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.3972649549145744,
+                        59.035404968141755
+                    ],
+                    [
+                        -3.496688628912629,
+                        58.8638214987765
+                    ],
+                    [
+                        -2.940203380570686,
+                        58.77604090772171
+                    ],
+                    [
+                        -2.837614744999889,
+                        58.94798908955863
+                    ],
+                    [
+                        -3.3972649549145744,
+                        59.035404968141755
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230421_110847_34_247d",
+        "properties": {
+            "acquired": "2023-04-21T11:08:47.342508Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 96,
+            "clear_percent": 98,
+            "cloud_cover": 0.02,
+            "cloud_percent": 2,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-22T00:05:02Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283.9,
+            "satellite_id": "247d",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6451060",
+            "sun_azimuth": 158.6,
+            "sun_elevation": 41.3,
+            "updated": "2023-04-22T09:58:46Z",
+            "view_angle": 4.5,
+            "visible_confidence_percent": 79,
+            "visible_percent": 98
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230420_103316_73_2427",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230420_103316_73_2427/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230420_103316_73_2427/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.8958709728782823,
+                        58.57390961252467
+                    ],
+                    [
+                        -3.994483586498849,
+                        58.40108028474082
+                    ],
+                    [
+                        -3.441693375278926,
+                        58.313113514413104
+                    ],
+                    [
+                        -3.3399845994521065,
+                        58.486200719939696
+                    ],
+                    [
+                        -3.8958709728782823,
+                        58.57390961252467
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230420_103316_73_2427",
+        "properties": {
+            "acquired": "2023-04-20T10:33:16.732044Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 99,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-20T14:56:03Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283,
+            "satellite_id": "2427",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6448059",
+            "sun_azimuth": 146.7,
+            "sun_elevation": 39.2,
+            "updated": "2023-04-21T04:12:17Z",
+            "view_angle": 4.5,
+            "visible_confidence_percent": 82,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230419_111516_31_240c",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230419_111516_31_240c/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230419_111516_31_240c/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.4914246315754394,
+                        58.646117440347
+                    ],
+                    [
+                        -3.5758985544457373,
+                        58.48206144087471
+                    ],
+                    [
+                        -3.051723010272364,
+                        58.407741571923644
+                    ],
+                    [
+                        -2.9655120125143974,
+                        58.570295729104735
+                    ],
+                    [
+                        -3.4914246315754394,
+                        58.646117440347
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230419_111516_31_240c",
+        "properties": {
+            "acquired": "2023-04-19T11:15:16.314569Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 98,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.6,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-20T02:48:51Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 103.8,
+            "satellite_id": "240c",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6446890",
+            "sun_azimuth": 162.1,
+            "sun_elevation": 41.7,
+            "updated": "2023-04-20T06:52:09Z",
+            "view_angle": 5.2,
+            "visible_confidence_percent": 76,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230419_111518_35_240c",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230419_111518_35_240c/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230419_111518_35_240c/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.55700851632957,
+                        58.51882492274072
+                    ],
+                    [
+                        -3.640913788935903,
+                        58.35477231807909
+                    ],
+                    [
+                        -3.118718291916075,
+                        58.280649846377734
+                    ],
+                    [
+                        -3.0330696180086334,
+                        58.44322605181361
+                    ],
+                    [
+                        -3.55700851632957,
+                        58.51882492274072
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230419_111518_35_240c",
+        "properties": {
+            "acquired": "2023-04-19T11:15:18.351328Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 98,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.6,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-20T02:48:33Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 103.8,
+            "satellite_id": "240c",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6446890",
+            "sun_azimuth": 162,
+            "sun_elevation": 41.8,
+            "updated": "2023-04-20T06:52:09Z",
+            "view_angle": 5.2,
+            "visible_confidence_percent": 98,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230419_111510_20_240c",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230419_111510_20_240c/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230419_111510_20_240c/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.291049928623827,
+                        59.026401032415684
+                    ],
+                    [
+                        -3.3773808031482493,
+                        58.86244094488331
+                    ],
+                    [
+                        -2.847493465368133,
+                        58.78741095116708
+                    ],
+                    [
+                        -2.7595632628891202,
+                        58.94985259947884
+                    ],
+                    [
+                        -3.291049928623827,
+                        59.026401032415684
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230419_111510_20_240c",
+        "properties": {
+            "acquired": "2023-04-19T11:15:10.204288Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 96,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.6,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-20T00:39:19Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 104,
+            "satellite_id": "240c",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6446890",
+            "sun_azimuth": 162.4,
+            "sun_elevation": 41.3,
+            "updated": "2023-04-20T06:52:09Z",
+            "view_angle": 5.3,
+            "visible_confidence_percent": 77,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230419_111508_16_240c",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230419_111508_16_240c/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230419_111508_16_240c/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.223412325125816,
+                        59.15271177185051
+                    ],
+                    [
+                        -3.310214871746247,
+                        58.98879245637729
+                    ],
+                    [
+                        -2.7786435978127604,
+                        58.913555512250426
+                    ],
+                    [
+                        -2.6901300567228494,
+                        59.0759979849015
+                    ],
+                    [
+                        -3.223412325125816,
+                        59.15271177185051
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230419_111508_16_240c",
+        "properties": {
+            "acquired": "2023-04-19T11:15:08.167528Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 96,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.6,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-20T00:36:37Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 104.1,
+            "satellite_id": "240c",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6446890",
+            "sun_azimuth": 162.5,
+            "sun_elevation": 41.2,
+            "updated": "2023-04-20T06:52:08Z",
+            "view_angle": 5.2,
+            "visible_confidence_percent": 74,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230419_110917_15_2481",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230419_110917_15_2481/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230419_110917_15_2481/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -4.112882501622241,
+                        58.58363163922395
+                    ],
+                    [
+                        -4.20805746738343,
+                        58.4127803896917
+                    ],
+                    [
+                        -3.6636916636559747,
+                        58.32797851339836
+                    ],
+                    [
+                        -3.5653985954826632,
+                        58.4987484521911
+                    ],
+                    [
+                        -4.112882501622241,
+                        58.58363163922395
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230419_110917_15_2481",
+        "properties": {
+            "acquired": "2023-04-19T11:09:17.156892Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 99,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.7,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-19T15:40:38Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 281.2,
+            "satellite_id": "2481",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6445846",
+            "sun_azimuth": 158.2,
+            "sun_elevation": 41.1,
+            "updated": "2023-04-20T04:15:58Z",
+            "view_angle": 1.7,
+            "visible_confidence_percent": 79,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_105956_34_2490",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_105956_34_2490/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_105956_34_2490/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -2.4697169186787753,
+                        58.80316996485541
+                    ],
+                    [
+                        -2.5636966518322732,
+                        58.63110394543069
+                    ],
+                    [
+                        -2.0129746563395345,
+                        58.54934298020626
+                    ],
+                    [
+                        -1.9166602969610278,
+                        58.72054631637396
+                    ],
+                    [
+                        -2.4697169186787753,
+                        58.80316996485541
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_105956_34_2490",
+        "properties": {
+            "acquired": "2023-04-18T10:59:56.340516Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 96,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": false,
+            "gsd": 3.7,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-19T02:31:58Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 107.5,
+            "satellite_id": "2490",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6443944",
+            "sun_azimuth": 158.1,
+            "sun_elevation": 40.5,
+            "updated": "2023-04-19T04:04:42Z",
+            "view_angle": 2,
+            "visible_confidence_percent": 96,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110413_00_249c",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110413_00_249c/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_110413_00_249c/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -2.6343292671864074,
+                        58.569732943285416
+                    ],
+                    [
+                        -2.7315760240356157,
+                        58.398261332865545
+                    ],
+                    [
+                        -2.1811000626130608,
+                        58.309967652172176
+                    ],
+                    [
+                        -2.0805638426184774,
+                        58.48209917500217
+                    ],
+                    [
+                        -2.6343292671864074,
+                        58.569732943285416
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_110413_00_249c",
+        "properties": {
+            "acquired": "2023-04-18T11:04:13.003666Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 97,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": false,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-19T02:31:52Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 283.3,
+            "satellite_id": "249c",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6443677",
+            "sun_azimuth": 157.9,
+            "sun_elevation": 40.6,
+            "updated": "2023-04-19T04:03:59Z",
+            "view_angle": 5,
+            "visible_confidence_percent": 97,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110408_68_249c",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110408_68_249c/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_110408_68_249c/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -2.480666777309913,
+                        58.83536322008817
+                    ],
+                    [
+                        -2.5792363428515523,
+                        58.663548963598195
+                    ],
+                    [
+                        -2.0237647449637075,
+                        58.574232715924154
+                    ],
+                    [
+                        -1.9218477327340915,
+                        58.746698459719326
+                    ],
+                    [
+                        -2.480666777309913,
+                        58.83536322008817
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_110408_68_249c",
+        "properties": {
+            "acquired": "2023-04-18T11:04:08.682242Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 97,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": false,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-19T02:31:52Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 283.3,
+            "satellite_id": "249c",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6443677",
+            "sun_azimuth": 158.1,
+            "sun_elevation": 40.4,
+            "updated": "2023-04-19T04:03:59Z",
+            "view_angle": 5,
+            "visible_confidence_percent": 97,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110410_84_249c",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110410_84_249c/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_110410_84_249c/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -2.5596117674683447,
+                        58.70277002508207
+                    ],
+                    [
+                        -2.6575549294007983,
+                        58.53111023684424
+                    ],
+                    [
+                        -2.104533127027308,
+                        58.44227092226338
+                    ],
+                    [
+                        -2.0032759666996984,
+                        58.61458669141295
+                    ],
+                    [
+                        -2.5596117674683447,
+                        58.70277002508207
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_110410_84_249c",
+        "properties": {
+            "acquired": "2023-04-18T11:04:10.842926Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 97,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": false,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-19T02:30:56Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 283.4,
+            "satellite_id": "249c",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6443677",
+            "sun_azimuth": 158,
+            "sun_elevation": 40.5,
+            "updated": "2023-04-19T04:03:59Z",
+            "view_angle": 5,
+            "visible_confidence_percent": 97,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110609_47_2486",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110609_47_2486/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_110609_47_2486/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -2.858726934922974,
+                        59.058500674150245
+                    ],
+                    [
+                        -2.9582843690990073,
+                        58.88809922173782
+                    ],
+                    [
+                        -2.404802165126463,
+                        58.79980656472642
+                    ],
+                    [
+                        -2.301803014997745,
+                        58.97079135873506
+                    ],
+                    [
+                        -2.858726934922974,
+                        59.058500674150245
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_110609_47_2486",
+        "properties": {
+            "acquired": "2023-04-18T11:06:09.470698Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 96,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-19T00:53:32Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283.4,
+            "satellite_id": "2486",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6444571",
+            "sun_azimuth": 158.4,
+            "sun_elevation": 40.2,
+            "updated": "2023-04-19T07:15:39Z",
+            "view_angle": 5,
+            "visible_confidence_percent": 74,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110618_24_2486",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110618_24_2486/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_110618_24_2486/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.1720629862769325,
+                        58.51805152901037
+                    ],
+                    [
+                        -3.2690043071347294,
+                        58.34753485643374
+                    ],
+                    [
+                        -2.723084644566756,
+                        58.26035026345305
+                    ],
+                    [
+                        -2.623066559901476,
+                        58.43157224980363
+                    ],
+                    [
+                        -3.1720629862769325,
+                        58.51805152901037
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_110618_24_2486",
+        "properties": {
+            "acquired": "2023-04-18T11:06:18.24795Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 97,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-19T00:53:24Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283.2,
+            "satellite_id": "2486",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6444571",
+            "sun_azimuth": 157.8,
+            "sun_elevation": 40.7,
+            "updated": "2023-04-19T07:15:40Z",
+            "view_angle": 5,
+            "visible_confidence_percent": 73,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110605_08_2486",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110605_08_2486/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_110605_08_2486/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -2.699049468931489,
+                        59.32700372048286
+                    ],
+                    [
+                        -2.800144583732837,
+                        59.156691835998934
+                    ],
+                    [
+                        -2.24256358509691,
+                        59.06792824490226
+                    ],
+                    [
+                        -2.1381095001087163,
+                        59.23873323845193
+                    ],
+                    [
+                        -2.699049468931489,
+                        59.32700372048286
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_110605_08_2486",
+        "properties": {
+            "acquired": "2023-04-18T11:06:05.082072Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 96,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-19T00:53:22Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283.7,
+            "satellite_id": "2486",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6444571",
+            "sun_azimuth": 158.6,
+            "sun_elevation": 40,
+            "updated": "2023-04-19T07:15:39Z",
+            "view_angle": 5,
+            "visible_confidence_percent": 76,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110613_85_2486",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110613_85_2486/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_110613_85_2486/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.0160513766140022,
+                        58.78848091269211
+                    ],
+                    [
+                        -3.114157044565881,
+                        58.618023143881125
+                    ],
+                    [
+                        -2.5649898492969543,
+                        58.530743782026036
+                    ],
+                    [
+                        -2.463127855864744,
+                        58.70168989488759
+                    ],
+                    [
+                        -3.0160513766140022,
+                        58.78848091269211
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_110613_85_2486",
+        "properties": {
+            "acquired": "2023-04-18T11:06:13.859324Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 97,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-19T00:51:56Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283.3,
+            "satellite_id": "2486",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6444571",
+            "sun_azimuth": 158.1,
+            "sun_elevation": 40.4,
+            "updated": "2023-04-19T07:15:40Z",
+            "view_angle": 5,
+            "visible_confidence_percent": 97,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110607_27_2486",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110607_27_2486/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_110607_27_2486/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -2.77919073623079,
+                        59.192773955050185
+                    ],
+                    [
+                        -2.87939385341272,
+                        59.02242389704035
+                    ],
+                    [
+                        -2.324055125970645,
+                        58.934002414829685
+                    ],
+                    [
+                        -2.2201289886284687,
+                        59.10484154847702
+                    ],
+                    [
+                        -2.77919073623079,
+                        59.192773955050185
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_110607_27_2486",
+        "properties": {
+            "acquired": "2023-04-18T11:06:07.276385Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 96,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-19T00:51:23Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283.6,
+            "satellite_id": "2486",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6444571",
+            "sun_azimuth": 158.5,
+            "sun_elevation": 40.1,
+            "updated": "2023-04-19T07:15:39Z",
+            "view_angle": 5,
+            "visible_confidence_percent": 75,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110616_05_2486",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110616_05_2486/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_110616_05_2486/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.094315138214082,
+                        58.65320908670205
+                    ],
+                    [
+                        -3.191883696512402,
+                        58.482689551947864
+                    ],
+                    [
+                        -2.6445782126697344,
+                        58.395447169962736
+                    ],
+                    [
+                        -2.543930420366091,
+                        58.566404646752694
+                    ],
+                    [
+                        -3.094315138214082,
+                        58.65320908670205
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_110616_05_2486",
+        "properties": {
+            "acquired": "2023-04-18T11:06:16.053637Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 97,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-19T00:50:53Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283.3,
+            "satellite_id": "2486",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6444571",
+            "sun_azimuth": 158,
+            "sun_elevation": 40.6,
+            "updated": "2023-04-19T07:15:40Z",
+            "view_angle": 4.9,
+            "visible_confidence_percent": 73,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110611_66_2486",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110611_66_2486/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_110611_66_2486/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -2.9375442996872967,
+                        58.92370551309471
+                    ],
+                    [
+                        -3.036409115992583,
+                        58.75326456174758
+                    ],
+                    [
+                        -2.484900716387949,
+                        58.665540617993734
+                    ],
+                    [
+                        -2.382871473924699,
+                        58.83645095847239
+                    ],
+                    [
+                        -2.9375442996872967,
+                        58.92370551309471
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_110611_66_2486",
+        "properties": {
+            "acquired": "2023-04-18T11:06:11.665011Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 97,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-19T00:50:43Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283.3,
+            "satellite_id": "2486",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6444571",
+            "sun_azimuth": 158.2,
+            "sun_elevation": 40.3,
+            "updated": "2023-04-19T07:15:39Z",
+            "view_angle": 4.9,
+            "visible_confidence_percent": 75,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_105819_48_2276",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_105819_48_2276/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_105819_48_2276/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.9316072705720186,
+                        58.715337805511815
+                    ],
+                    [
+                        -4.020779380091366,
+                        58.5544603807447
+                    ],
+                    [
+                        -3.5053973933266205,
+                        58.47524797012559
+                    ],
+                    [
+                        -3.4133671688651304,
+                        58.63615778093023
+                    ],
+                    [
+                        -3.9316072705720186,
+                        58.715337805511815
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_105819_48_2276",
+        "properties": {
+            "acquired": "2023-04-18T10:58:19.48336Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 97,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.5,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-18T21:28:34Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 282.1,
+            "satellite_id": "2276",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6443941",
+            "sun_azimuth": 154.8,
+            "sun_elevation": 40,
+            "updated": "2023-04-19T03:53:50Z",
+            "view_angle": 3,
+            "visible_confidence_percent": 78,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_105821_51_2276",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_105821_51_2276/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_105821_51_2276/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -4.001958162068,
+                        58.58949333566905
+                    ],
+                    [
+                        -4.090587534131054,
+                        58.42859157197482
+                    ],
+                    [
+                        -3.5769975451219858,
+                        58.349653195858714
+                    ],
+                    [
+                        -3.4855460934139653,
+                        58.51055547122755
+                    ],
+                    [
+                        -4.001958162068,
+                        58.58949333566905
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_105821_51_2276",
+        "properties": {
+            "acquired": "2023-04-18T10:58:21.518139Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 99,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": true,
+            "gsd": 3.5,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-18T21:28:23Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 281.9,
+            "satellite_id": "2276",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6443941",
+            "sun_azimuth": 154.7,
+            "sun_elevation": 40.1,
+            "updated": "2023-04-19T03:53:50Z",
+            "view_angle": 3,
+            "visible_confidence_percent": 80,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_105817_44_2276",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_105817_44_2276/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_105817_44_2276/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.857374244956456,
+                        58.83779075954879
+                    ],
+                    [
+                        -3.9479041718189234,
+                        58.680096344722415
+                    ],
+                    [
+                        -3.433366095192364,
+                        58.60092551109379
+                    ],
+                    [
+                        -3.3458060209308105,
+                        58.76092961475543
+                    ],
+                    [
+                        -3.857374244956456,
+                        58.83779075954879
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_105817_44_2276",
+        "properties": {
+            "acquired": "2023-04-18T10:58:17.448581Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 95,
+            "clear_percent": 98,
+            "cloud_cover": 0.02,
+            "cloud_percent": 2,
+            "ground_control": true,
+            "gsd": 3.5,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-18T21:28:14Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 282.2,
+            "satellite_id": "2276",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6443941",
+            "sun_azimuth": 154.9,
+            "sun_elevation": 39.9,
+            "updated": "2023-04-19T03:53:50Z",
+            "view_angle": 3.1,
+            "visible_confidence_percent": 72,
+            "visible_percent": 98
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_111230_37_248f",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_111230_37_248f/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_111230_37_248f/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -4.2007491657952025,
+                        59.061808968094965
+                    ],
+                    [
+                        -4.302359035506022,
+                        58.89158910364514
+                    ],
+                    [
+                        -3.747928188636498,
+                        58.80338148373629
+                    ],
+                    [
+                        -3.6429881480597026,
+                        58.97425006441302
+                    ],
+                    [
+                        -4.2007491657952025,
+                        59.061808968094965
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_111230_37_248f",
+        "properties": {
+            "acquired": "2023-04-18T11:12:30.372432Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 95,
+            "clear_percent": 99,
+            "cloud_cover": 0.01,
+            "cloud_percent": 1,
+            "ground_control": false,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-18T21:28:05Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 284.6,
+            "satellite_id": "248f",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6443978",
+            "sun_azimuth": 158.7,
+            "sun_elevation": 40.3,
+            "updated": "2023-04-19T06:03:57Z",
+            "view_angle": 4.9,
+            "visible_confidence_percent": 85,
+            "visible_percent": 99
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_111228_18_248f",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_111228_18_248f/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_111228_18_248f/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -4.121499477515627,
+                        59.19702279765473
+                    ],
+                    [
+                        -4.223843237373245,
+                        59.02685044706311
+                    ],
+                    [
+                        -3.6673308924844457,
+                        58.938358012382324
+                    ],
+                    [
+                        -3.5616272745267237,
+                        59.10917396151692
+                    ],
+                    [
+                        -4.121499477515627,
+                        59.19702279765473
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_111228_18_248f",
+        "properties": {
+            "acquired": "2023-04-18T11:12:28.183201Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 94,
+            "clear_percent": 99,
+            "cloud_cover": 0.01,
+            "cloud_percent": 1,
+            "ground_control": false,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-18T21:27:26Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 284.5,
+            "satellite_id": "248f",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6443978",
+            "sun_azimuth": 158.8,
+            "sun_elevation": 40.1,
+            "updated": "2023-04-19T06:04:47Z",
+            "view_angle": 4.9,
+            "visible_confidence_percent": 70,
+            "visible_percent": 99
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_111225_99_248f",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_111225_99_248f/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_111225_99_248f/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -4.041363679457554,
+                        59.33221510013157
+                    ],
+                    [
+                        -4.144432786568222,
+                        59.16208584370837
+                    ],
+                    [
+                        -3.5858058441607303,
+                        59.07332379573957
+                    ],
+                    [
+                        -3.47934927430233,
+                        59.244088973979466
+                    ],
+                    [
+                        -4.041363679457554,
+                        59.33221510013157
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_111225_99_248f",
+        "properties": {
+            "acquired": "2023-04-18T11:12:25.99397Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 96,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": false,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-18T21:27:14Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 284.5,
+            "satellite_id": "248f",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6443978",
+            "sun_azimuth": 158.9,
+            "sun_elevation": 40,
+            "updated": "2023-04-19T06:04:33Z",
+            "view_angle": 4.9,
+            "visible_confidence_percent": 84,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110118_23_248b",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110118_23_248b/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_110118_23_248b/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.5526826389597543,
+                        58.61647392767639
+                    ],
+                    [
+                        -3.64350415489809,
+                        58.44260426777152
+                    ],
+                    [
+                        -3.0890251623057896,
+                        58.36236083794393
+                    ],
+                    [
+                        -2.9957730892105943,
+                        58.53470885529303
+                    ],
+                    [
+                        -3.5526826389597543,
+                        58.61647392767639
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_110118_23_248b",
+        "properties": {
+            "acquired": "2023-04-18T11:01:18.230513Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 96,
+            "clear_percent": 99,
+            "cloud_cover": 0.01,
+            "cloud_percent": 1,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-18T13:48:48Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 104.7,
+            "satellite_id": "248b",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6443332",
+            "sun_azimuth": 157.5,
+            "sun_elevation": 40.7,
+            "updated": "2023-04-19T04:19:00Z",
+            "view_angle": 4.9,
+            "visible_confidence_percent": 75,
+            "visible_percent": 99
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110116_07_248b",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230418_110116_07_248b/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230418_110116_07_248b/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.4834596651052037,
+                        58.75007717597511
+                    ],
+                    [
+                        -3.57479450927448,
+                        58.576167321244576
+                    ],
+                    [
+                        -3.018191138918309,
+                        58.495723896257005
+                    ],
+                    [
+                        -2.9241980876256544,
+                        58.66802898169364
+                    ],
+                    [
+                        -3.4834596651052037,
+                        58.75007717597511
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230418_110116_07_248b",
+        "properties": {
+            "acquired": "2023-04-18T11:01:16.072336Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 92,
+            "clear_percent": 96,
+            "cloud_cover": 0.04,
+            "cloud_percent": 4,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-18T13:46:16Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 105,
+            "satellite_id": "248b",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6443332",
+            "sun_azimuth": 157.7,
+            "sun_elevation": 40.6,
+            "updated": "2023-04-19T04:17:32Z",
+            "view_angle": 4.9,
+            "visible_confidence_percent": 74,
+            "visible_percent": 96
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_111527_00_2424",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_111527_00_2424/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230417_111527_00_2424/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -4.203312546701688,
+                        59.26547512734252
+                    ],
+                    [
+                        -4.305900515477685,
+                        59.08956221295389
+                    ],
+                    [
+                        -3.731650033999812,
+                        58.999546492317776
+                    ],
+                    [
+                        -3.625607894807603,
+                        59.175959543768776
+                    ],
+                    [
+                        -4.203312546701688,
+                        59.26547512734252
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230417_111527_00_2424",
+        "properties": {
+            "acquired": "2023-04-17T11:15:27.009599Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 96,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": false,
+            "gsd": 3.9,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-17T23:07:53Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 283.4,
+            "satellite_id": "2424",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6441335",
+            "sun_azimuth": 159.8,
+            "sun_elevation": 39.9,
+            "updated": "2023-04-18T04:05:59Z",
+            "view_angle": 4.3,
+            "visible_confidence_percent": 96,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_110952_31_247d",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_110952_31_247d/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230417_110952_31_247d/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.9007714575780885,
+                        58.866952245791964
+                    ],
+                    [
+                        -3.9980692206438926,
+                        58.695431237912956
+                    ],
+                    [
+                        -3.4454300704977165,
+                        58.60891004897596
+                    ],
+                    [
+                        -3.344948916410787,
+                        58.780817182337294
+                    ],
+                    [
+                        -3.9007714575780885,
+                        58.866952245791964
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230417_110952_31_247d",
+        "properties": {
+            "acquired": "2023-04-17T11:09:52.311613Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 94,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": false,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-17T23:07:49Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 282.9,
+            "satellite_id": "247d",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6441906",
+            "sun_azimuth": 158.4,
+            "sun_elevation": 40.1,
+            "updated": "2023-04-18T04:13:56Z",
+            "view_angle": 3.8,
+            "visible_confidence_percent": 69,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_110945_74_247d",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_110945_74_247d/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230417_110945_74_247d/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.6660266427384185,
+                        59.270280215929795
+                    ],
+                    [
+                        -3.765744857571135,
+                        59.099266897768565
+                    ],
+                    [
+                        -3.2070449067384295,
+                        59.01189398081552
+                    ],
+                    [
+                        -3.104344854797041,
+                        59.18388009990292
+                    ],
+                    [
+                        -3.6660266427384185,
+                        59.270280215929795
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230417_110945_74_247d",
+        "properties": {
+            "acquired": "2023-04-17T11:09:45.741779Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 95,
+            "clear_percent": 98,
+            "cloud_cover": 0.01,
+            "cloud_percent": 1,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-17T23:06:36Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283,
+            "satellite_id": "247d",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6441906",
+            "sun_azimuth": 158.8,
+            "sun_elevation": 39.7,
+            "updated": "2023-04-18T05:52:00Z",
+            "view_angle": 3.8,
+            "visible_confidence_percent": 78,
+            "visible_percent": 99
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_110943_55_247d",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_110943_55_247d/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230417_110943_55_247d/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.5859355709564946,
+                        59.404999653151826
+                    ],
+                    [
+                        -3.686255661045176,
+                        59.23375527440232
+                    ],
+                    [
+                        -3.1256853204271833,
+                        59.14641144249659
+                    ],
+                    [
+                        -3.0221751966360086,
+                        59.31802346064963
+                    ],
+                    [
+                        -3.5859355709564946,
+                        59.404999653151826
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230417_110943_55_247d",
+        "properties": {
+            "acquired": "2023-04-17T11:09:43.551834Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 88,
+            "clear_percent": 93,
+            "cloud_cover": 0.07,
+            "cloud_percent": 7,
+            "ground_control": false,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-17T23:05:59Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 283,
+            "satellite_id": "247d",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6441906",
+            "sun_azimuth": 158.9,
+            "sun_elevation": 39.6,
+            "updated": "2023-04-18T04:13:50Z",
+            "view_angle": 3.8,
+            "visible_confidence_percent": 69,
+            "visible_percent": 93
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_110947_93_247d",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_110947_93_247d/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230417_110947_93_247d/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.7463546217288304,
+                        59.13585650391653
+                    ],
+                    [
+                        -3.8450772578626142,
+                        58.96414501699451
+                    ],
+                    [
+                        -3.287573276168503,
+                        58.8771684662179
+                    ],
+                    [
+                        -3.1850118860442267,
+                        59.049015823611214
+                    ],
+                    [
+                        -3.7463546217288304,
+                        59.13585650391653
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230417_110947_93_247d",
+        "properties": {
+            "acquired": "2023-04-17T11:09:47.931724Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 94,
+            "clear_percent": 94,
+            "cloud_cover": 0.05,
+            "cloud_percent": 5,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-17T23:05:48Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283,
+            "satellite_id": "247d",
+            "shadow_percent": 1,
+            "snow_ice_percent": 0,
+            "strip_id": "6441906",
+            "sun_azimuth": 158.6,
+            "sun_elevation": 39.9,
+            "updated": "2023-04-18T05:52:00Z",
+            "view_angle": 3.8,
+            "visible_confidence_percent": 66,
+            "visible_percent": 95
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_110950_12_247d",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_110950_12_247d/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230417_110950_12_247d/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.823335610361583,
+                        59.00057368860349
+                    ],
+                    [
+                        -3.9201545260555264,
+                        58.82939214262693
+                    ],
+                    [
+                        -3.3668275819222955,
+                        58.74253400746091
+                    ],
+                    [
+                        -3.2652481930334134,
+                        58.91446251457235
+                    ],
+                    [
+                        -3.823335610361583,
+                        59.00057368860349
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230417_110950_12_247d",
+        "properties": {
+            "acquired": "2023-04-17T11:09:50.121668Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 94,
+            "clear_percent": 96,
+            "cloud_cover": 0.04,
+            "cloud_percent": 4,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-17T23:05:40Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 283.1,
+            "satellite_id": "247d",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6441906",
+            "sun_azimuth": 158.5,
+            "sun_elevation": 40,
+            "updated": "2023-04-18T05:52:00Z",
+            "view_angle": 3.9,
+            "visible_confidence_percent": 79,
+            "visible_percent": 96
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_110956_69_247d",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_110956_69_247d/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230417_110956_69_247d/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -4.055380577879949,
+                        58.597745032754815
+                    ],
+                    [
+                        -4.151539729968053,
+                        58.42596072630984
+                    ],
+                    [
+                        -3.6025087877450406,
+                        58.33999164353214
+                    ],
+                    [
+                        -3.5027856927036978,
+                        58.51201332481322
+                    ],
+                    [
+                        -4.055380577879949,
+                        58.597745032754815
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230417_110956_69_247d",
+        "properties": {
+            "acquired": "2023-04-17T11:09:56.691503Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 98,
+            "clear_percent": 98,
+            "cloud_cover": 0.01,
+            "cloud_percent": 1,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-17T23:04:19Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 282.7,
+            "satellite_id": "247d",
+            "shadow_percent": 1,
+            "snow_ice_percent": 0,
+            "strip_id": "6441906",
+            "sun_azimuth": 158.1,
+            "sun_elevation": 40.3,
+            "updated": "2023-04-18T05:52:00Z",
+            "view_angle": 3.8,
+            "visible_confidence_percent": 86,
+            "visible_percent": 99
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_111524_83_2424",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_111524_83_2424/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230417_111524_83_2424/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -4.12635242165374,
+                        59.39690936309758
+                    ],
+                    [
+                        -4.229628151396954,
+                        59.22102489888518
+                    ],
+                    [
+                        -3.6532107696979526,
+                        59.13076151800543
+                    ],
+                    [
+                        -3.546456855237887,
+                        59.30714196207522
+                    ],
+                    [
+                        -4.12635242165374,
+                        59.39690936309758
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230417_111524_83_2424",
+        "properties": {
+            "acquired": "2023-04-17T11:15:24.839948Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 96,
+            "clear_percent": 100,
+            "cloud_cover": 0,
+            "cloud_percent": 0,
+            "ground_control": false,
+            "gsd": 3.9,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-17T23:03:28Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 283.6,
+            "satellite_id": "2424",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6441335",
+            "sun_azimuth": 159.9,
+            "sun_elevation": 39.8,
+            "updated": "2023-04-18T04:07:19Z",
+            "view_angle": 4.3,
+            "visible_confidence_percent": 82,
+            "visible_percent": 100
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_111529_17_2424",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230417_111529_17_2424/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230417_111529_17_2424/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -4.28174887363387,
+                        59.13170270323073
+                    ],
+                    [
+                        -4.383601915129162,
+                        58.95574020665913
+                    ],
+                    [
+                        -3.8114740550789428,
+                        58.86600951429462
+                    ],
+                    [
+                        -3.706191953339755,
+                        59.04247609913596
+                    ],
+                    [
+                        -4.28174887363387,
+                        59.13170270323073
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230417_111529_17_2424",
+        "properties": {
+            "acquired": "2023-04-17T11:15:29.17925Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 93,
+            "clear_percent": 94,
+            "cloud_cover": 0.06,
+            "cloud_percent": 6,
+            "ground_control": false,
+            "gsd": 3.9,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-17T23:02:16Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 283.3,
+            "satellite_id": "2424",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6441335",
+            "sun_azimuth": 159.7,
+            "sun_elevation": 40,
+            "updated": "2023-04-18T04:07:30Z",
+            "view_angle": 4.3,
+            "visible_confidence_percent": 72,
+            "visible_percent": 94
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230416_102414_92_242b",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230416_102414_92_242b/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230416_102414_92_242b/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.570805772855045,
+                        58.61724976558884
+                    ],
+                    [
+                        -3.6656463642725976,
+                        58.443175844759104
+                    ],
+                    [
+                        -3.1115331179068204,
+                        58.3592329208289
+                    ],
+                    [
+                        -3.014067039068412,
+                        58.53264747379898
+                    ],
+                    [
+                        -3.570805772855045,
+                        58.61724976558884
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230416_102414_92_242b",
+        "properties": {
+            "acquired": "2023-04-16T10:24:14.92672Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 91,
+            "clear_percent": 86,
+            "cloud_cover": 0.06,
+            "cloud_percent": 3,
+            "ground_control": true,
+            "gsd": 3.8,
+            "heavy_haze_percent": 3,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 7,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-16T13:44:11Z",
+            "publishing_stage": "finalized",
+            "quality_category": "standard",
+            "satellite_azimuth": 113.4,
+            "satellite_id": "242b",
+            "shadow_percent": 2,
+            "snow_ice_percent": 0,
+            "strip_id": "6438759",
+            "sun_azimuth": 145.5,
+            "sun_elevation": 37.4,
+            "updated": "2023-04-17T04:08:43Z",
+            "view_angle": 0.6,
+            "visible_confidence_percent": 67,
+            "visible_percent": 94
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
             "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230415_110553_01_247f",
             "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230415_110553_01_247f/assets/",
             "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230415_110553_01_247f/thumb"
@@ -197,9 +4019,9 @@
     },
     {
         "_links": {
-            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230408_110036_14_24a4",
-            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230408_110036_14_24a4/assets/",
-            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230408_110036_14_24a4/thumb"
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230414_103722_98_24c5",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230414_103722_98_24c5/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230414_103722_98_24c5/thumb"
         },
         "_permissions": [
             "assets.basic_analytic_4b:download",
@@ -237,459 +4059,67 @@
             "coordinates": [
                 [
                     [
-                        -2.995311323761017,
-                        59.037784157295654
+                        -4.033102715818196,
+                        58.90505362486906
                     ],
                     [
-                        -3.0897412724151545,
-                        58.865319699520626
+                        -4.138451815473865,
+                        58.72144361260729
                     ],
                     [
-                        -2.5335795267485595,
-                        58.78278940529383
+                        -3.5462612447053874,
+                        58.6276532455209
                     ],
                     [
-                        -2.436589768467172,
-                        58.95412438781873
+                        -3.4387502279380344,
+                        58.810897330762096
                     ],
                     [
-                        -2.995311323761017,
-                        59.037784157295654
+                        -4.033102715818196,
+                        58.90505362486906
                     ]
                 ]
             ],
             "type": "Polygon"
         },
-        "id": "20230408_110036_14_24a4",
+        "id": "20230414_103722_98_24c5",
         "properties": {
-            "acquired": "2023-04-08T11:00:36.147225Z",
+            "acquired": "2023-04-14T10:37:22.986288Z",
             "anomalous_pixels": 0,
-            "clear_confidence_percent": 89,
-            "clear_percent": 96,
-            "cloud_cover": 0.03,
-            "cloud_percent": 3,
-            "ground_control": true,
-            "gsd": 3.8,
-            "heavy_haze_percent": 0,
-            "instrument": "PSB.SD",
-            "item_type": "PSScene",
-            "light_haze_percent": 0,
-            "pixel_resolution": 3,
-            "provider": "planetscope",
-            "published": "2023-04-09T02:32:09Z",
-            "publishing_stage": "finalized",
-            "quality_category": "standard",
-            "satellite_azimuth": 105.5,
-            "satellite_id": "24a4",
-            "shadow_percent": 1,
-            "snow_ice_percent": 0,
-            "strip_id": "6418727",
-            "sun_azimuth": 158,
-            "sun_elevation": 36.6,
-            "updated": "2023-04-09T09:58:32Z",
-            "view_angle": 3.2,
-            "visible_confidence_percent": 66,
-            "visible_percent": 97
-        },
-        "type": "Feature"
-    },
-    {
-        "_links": {
-            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230408_110038_33_24a4",
-            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230408_110038_33_24a4/assets/",
-            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230408_110038_33_24a4/thumb"
-        },
-        "_permissions": [
-            "assets.basic_analytic_4b:download",
-            "assets.basic_analytic_4b_rpc:download",
-            "assets.basic_analytic_4b_xml:download",
-            "assets.basic_analytic_8b:download",
-            "assets.basic_analytic_8b_xml:download",
-            "assets.basic_udm2:download",
-            "assets.ortho_analytic_4b:download",
-            "assets.ortho_analytic_4b_sr:download",
-            "assets.ortho_analytic_4b_xml:download",
-            "assets.ortho_analytic_8b:download",
-            "assets.ortho_analytic_8b_sr:download",
-            "assets.ortho_analytic_8b_xml:download",
-            "assets.ortho_udm2:download",
-            "assets.ortho_visual:download"
-        ],
-        "assets": [
-            "basic_analytic_4b",
-            "basic_analytic_4b_rpc",
-            "basic_analytic_4b_xml",
-            "basic_analytic_8b",
-            "basic_analytic_8b_xml",
-            "basic_udm2",
-            "ortho_analytic_4b",
-            "ortho_analytic_4b_sr",
-            "ortho_analytic_4b_xml",
-            "ortho_analytic_8b",
-            "ortho_analytic_8b_sr",
-            "ortho_analytic_8b_xml",
-            "ortho_udm2",
-            "ortho_visual"
-        ],
-        "geometry": {
-            "coordinates": [
-                [
-                    [
-                        -3.0675324202315895,
-                        58.9022768336033
-                    ],
-                    [
-                        -3.1614970471075807,
-                        58.72981384111401
-                    ],
-                    [
-                        -2.6071690625732895,
-                        58.64759699450661
-                    ],
-                    [
-                        -2.511305562862813,
-                        58.81905274332388
-                    ],
-                    [
-                        -3.0675324202315895,
-                        58.9022768336033
-                    ]
-                ]
-            ],
-            "type": "Polygon"
-        },
-        "id": "20230408_110038_33_24a4",
-        "properties": {
-            "acquired": "2023-04-08T11:00:38.336392Z",
-            "anomalous_pixels": 0,
-            "clear_confidence_percent": 86,
-            "clear_percent": 96,
-            "cloud_cover": 0.04,
-            "cloud_percent": 4,
-            "ground_control": true,
-            "gsd": 3.8,
-            "heavy_haze_percent": 0,
-            "instrument": "PSB.SD",
-            "item_type": "PSScene",
-            "light_haze_percent": 0,
-            "pixel_resolution": 3,
-            "provider": "planetscope",
-            "published": "2023-04-09T02:30:24Z",
-            "publishing_stage": "finalized",
-            "quality_category": "standard",
-            "satellite_azimuth": 105.5,
-            "satellite_id": "24a4",
-            "shadow_percent": 0,
-            "snow_ice_percent": 0,
-            "strip_id": "6418727",
-            "sun_azimuth": 157.9,
-            "sun_elevation": 36.8,
-            "updated": "2023-04-09T09:58:29Z",
-            "view_angle": 3.3,
-            "visible_confidence_percent": 68,
-            "visible_percent": 96
-        },
-        "type": "Feature"
-    },
-    {
-        "_links": {
-            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230406_110308_72_2486",
-            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230406_110308_72_2486/assets/",
-            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230406_110308_72_2486/thumb"
-        },
-        "_permissions": [
-            "assets.basic_analytic_4b:download",
-            "assets.basic_analytic_4b_rpc:download",
-            "assets.basic_analytic_4b_xml:download",
-            "assets.basic_analytic_8b:download",
-            "assets.basic_analytic_8b_xml:download",
-            "assets.basic_udm2:download",
-            "assets.ortho_analytic_4b:download",
-            "assets.ortho_analytic_4b_sr:download",
-            "assets.ortho_analytic_4b_xml:download",
-            "assets.ortho_analytic_8b:download",
-            "assets.ortho_analytic_8b_sr:download",
-            "assets.ortho_analytic_8b_xml:download",
-            "assets.ortho_udm2:download",
-            "assets.ortho_visual:download"
-        ],
-        "assets": [
-            "basic_analytic_4b",
-            "basic_analytic_4b_rpc",
-            "basic_analytic_4b_xml",
-            "basic_analytic_8b",
-            "basic_analytic_8b_xml",
-            "basic_udm2",
-            "ortho_analytic_4b",
-            "ortho_analytic_4b_sr",
-            "ortho_analytic_4b_xml",
-            "ortho_analytic_8b",
-            "ortho_analytic_8b_sr",
-            "ortho_analytic_8b_xml",
-            "ortho_udm2",
-            "ortho_visual"
-        ],
-        "geometry": {
-            "coordinates": [
-                [
-                    [
-                        -3.4577204701372017,
-                        58.8587645473098
-                    ],
-                    [
-                        -3.5510779772092036,
-                        58.68673487228603
-                    ],
-                    [
-                        -2.997995334884297,
-                        58.604695890526294
-                    ],
-                    [
-                        -2.902313959486508,
-                        58.77576300207286
-                    ],
-                    [
-                        -3.4577204701372017,
-                        58.8587645473098
-                    ]
-                ]
-            ],
-            "type": "Polygon"
-        },
-        "id": "20230406_110308_72_2486",
-        "properties": {
-            "acquired": "2023-04-06T11:03:08.722517Z",
-            "anomalous_pixels": 0,
-            "clear_confidence_percent": 48,
-            "clear_percent": 16,
-            "cloud_cover": 0.02,
-            "cloud_percent": 0,
+            "clear_confidence_percent": 92,
+            "clear_percent": 91,
+            "cloud_cover": 0.08,
+            "cloud_percent": 8,
             "ground_control": false,
-            "gsd": 3.8,
-            "heavy_haze_percent": 1,
-            "instrument": "PSB.SD",
-            "item_type": "PSScene",
-            "light_haze_percent": 0,
-            "pixel_resolution": 3,
-            "provider": "planetscope",
-            "published": "2023-04-07T02:31:35Z",
-            "publishing_stage": "preview",
-            "quality_category": "test",
-            "satellite_azimuth": 107.7,
-            "satellite_id": "2486",
-            "shadow_percent": 0,
-            "snow_ice_percent": 83,
-            "strip_id": "6414052",
-            "sun_azimuth": 158,
-            "sun_elevation": 36,
-            "updated": "2023-04-07T04:14:44Z",
-            "view_angle": 2.4,
-            "visible_confidence_percent": 57,
-            "visible_percent": 98
-        },
-        "type": "Feature"
-    },
-    {
-        "_links": {
-            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230406_110306_53_2486",
-            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230406_110306_53_2486/assets/",
-            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230406_110306_53_2486/thumb"
-        },
-        "_permissions": [
-            "assets.basic_analytic_4b:download",
-            "assets.basic_analytic_4b_rpc:download",
-            "assets.basic_analytic_4b_xml:download",
-            "assets.basic_analytic_8b:download",
-            "assets.basic_analytic_8b_xml:download",
-            "assets.basic_udm2:download",
-            "assets.ortho_analytic_4b:download",
-            "assets.ortho_analytic_4b_sr:download",
-            "assets.ortho_analytic_4b_xml:download",
-            "assets.ortho_analytic_8b:download",
-            "assets.ortho_analytic_8b_sr:download",
-            "assets.ortho_analytic_8b_xml:download",
-            "assets.ortho_udm2:download",
-            "assets.ortho_visual:download"
-        ],
-        "assets": [
-            "basic_analytic_4b",
-            "basic_analytic_4b_rpc",
-            "basic_analytic_4b_xml",
-            "basic_analytic_8b",
-            "basic_analytic_8b_xml",
-            "basic_udm2",
-            "ortho_analytic_4b",
-            "ortho_analytic_4b_sr",
-            "ortho_analytic_4b_xml",
-            "ortho_analytic_8b",
-            "ortho_analytic_8b_sr",
-            "ortho_analytic_8b_xml",
-            "ortho_udm2",
-            "ortho_visual"
-        ],
-        "geometry": {
-            "coordinates": [
-                [
-                    [
-                        -3.3828227346520214,
-                        58.995655505156186
-                    ],
-                    [
-                        -3.4768869932006163,
-                        58.82367952074881
-                    ],
-                    [
-                        -2.9217347420348783,
-                        58.741351558815666
-                    ],
-                    [
-                        -2.825324619239253,
-                        58.91234997054091
-                    ],
-                    [
-                        -3.3828227346520214,
-                        58.995655505156186
-                    ]
-                ]
-            ],
-            "type": "Polygon"
-        },
-        "id": "20230406_110306_53_2486",
-        "properties": {
-            "acquired": "2023-04-06T11:03:06.537203Z",
-            "anomalous_pixels": 0,
-            "clear_confidence_percent": 45,
-            "clear_percent": 13,
-            "cloud_cover": 0.04,
-            "cloud_percent": 1,
-            "ground_control": false,
-            "gsd": 3.8,
-            "heavy_haze_percent": 3,
-            "instrument": "PSB.SD",
-            "item_type": "PSScene",
-            "light_haze_percent": 0,
-            "pixel_resolution": 3,
-            "provider": "planetscope",
-            "published": "2023-04-07T02:29:57Z",
-            "publishing_stage": "preview",
-            "quality_category": "test",
-            "satellite_azimuth": 108.3,
-            "satellite_id": "2486",
-            "shadow_percent": 0,
-            "snow_ice_percent": 83,
-            "strip_id": "6414052",
-            "sun_azimuth": 158.2,
-            "sun_elevation": 35.9,
-            "updated": "2023-04-07T04:16:00Z",
-            "view_angle": 2.4,
-            "visible_confidence_percent": 57,
-            "visible_percent": 96
-        },
-        "type": "Feature"
-    },
-    {
-        "_links": {
-            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230403_110756_06_2416",
-            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230403_110756_06_2416/assets/",
-            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230403_110756_06_2416/thumb"
-        },
-        "_permissions": [
-            "assets.basic_analytic_4b:download",
-            "assets.basic_analytic_4b_rpc:download",
-            "assets.basic_analytic_4b_xml:download",
-            "assets.basic_analytic_8b:download",
-            "assets.basic_analytic_8b_xml:download",
-            "assets.basic_udm2:download",
-            "assets.ortho_analytic_4b:download",
-            "assets.ortho_analytic_4b_sr:download",
-            "assets.ortho_analytic_4b_xml:download",
-            "assets.ortho_analytic_8b:download",
-            "assets.ortho_analytic_8b_sr:download",
-            "assets.ortho_analytic_8b_xml:download",
-            "assets.ortho_udm2:download",
-            "assets.ortho_visual:download"
-        ],
-        "assets": [
-            "basic_analytic_4b",
-            "basic_analytic_4b_rpc",
-            "basic_analytic_4b_xml",
-            "basic_analytic_8b",
-            "basic_analytic_8b_xml",
-            "basic_udm2",
-            "ortho_analytic_4b",
-            "ortho_analytic_4b_sr",
-            "ortho_analytic_4b_xml",
-            "ortho_analytic_8b",
-            "ortho_analytic_8b_sr",
-            "ortho_analytic_8b_xml",
-            "ortho_udm2",
-            "ortho_visual"
-        ],
-        "geometry": {
-            "coordinates": [
-                [
-                    [
-                        -3.437085611392701,
-                        58.988557982119964
-                    ],
-                    [
-                        -3.5336953140634417,
-                        58.81098729438846
-                    ],
-                    [
-                        -2.9627366674545765,
-                        58.72677915417266
-                    ],
-                    [
-                        -2.8638989225919245,
-                        58.90306138357959
-                    ],
-                    [
-                        -3.437085611392701,
-                        58.988557982119964
-                    ]
-                ]
-            ],
-            "type": "Polygon"
-        },
-        "id": "20230403_110756_06_2416",
-        "properties": {
-            "acquired": "2023-04-03T11:07:56.061182Z",
-            "anomalous_pixels": 0,
-            "clear_confidence_percent": 93,
-            "clear_percent": 100,
-            "cloud_cover": 0,
-            "cloud_percent": 0,
-            "ground_control": true,
-            "gsd": 3.9,
+            "gsd": 4,
             "heavy_haze_percent": 0,
             "instrument": "PSB.SD",
             "item_type": "PSScene",
             "light_haze_percent": 0,
             "pixel_resolution": 3,
             "provider": "planetscope",
-            "published": "2023-04-03T21:10:02Z",
+            "published": "2023-04-14T13:07:59Z",
             "publishing_stage": "finalized",
             "quality_category": "test",
-            "satellite_azimuth": 108.4,
-            "satellite_id": "2416",
+            "satellite_azimuth": 282.8,
+            "satellite_id": "24c5",
             "shadow_percent": 0,
             "snow_ice_percent": 0,
-            "strip_id": "6405374",
-            "sun_azimuth": 159.4,
-            "sun_elevation": 35,
-            "updated": "2023-04-04T03:57:40Z",
-            "view_angle": 1.8,
-            "visible_confidence_percent": 77,
-            "visible_percent": 100
+            "strip_id": "6433992",
+            "sun_azimuth": 148.6,
+            "sun_elevation": 37.1,
+            "updated": "2023-04-15T04:25:11Z",
+            "view_angle": 2.3,
+            "visible_confidence_percent": 69,
+            "visible_percent": 92
         },
         "type": "Feature"
     },
     {
         "_links": {
-            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230403_103144_59_24b4",
-            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230403_103144_59_24b4/assets/",
-            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230403_103144_59_24b4/thumb"
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230414_103720_66_24c5",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230414_103720_66_24c5/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230414_103720_66_24c5/thumb"
         },
         "_permissions": [
             "assets.basic_analytic_4b:download",
@@ -727,263 +4157,67 @@
             "coordinates": [
                 [
                     [
-                        -3.134463570794042,
-                        59.05594129123832
+                        -3.9520942688396348,
+                        59.0475176888927
                     ],
                     [
-                        -3.238088504289313,
-                        58.8697922173164
+                        -4.058532253085465,
+                        58.86386259191471
                     ],
                     [
-                        -2.6380191741092727,
-                        58.77911189441273
+                        -3.4641722164729503,
+                        58.7703537361297
                     ],
                     [
-                        -2.531412721859433,
-                        58.96452098020729
+                        -3.3543786922058736,
+                        58.9540338355742
                     ],
                     [
-                        -3.134463570794042,
-                        59.05594129123832
+                        -3.9520942688396348,
+                        59.0475176888927
                     ]
                 ]
             ],
             "type": "Polygon"
         },
-        "id": "20230403_103144_59_24b4",
+        "id": "20230414_103720_66_24c5",
         "properties": {
-            "acquired": "2023-04-03T10:31:44.593046Z",
+            "acquired": "2023-04-14T10:37:20.661053Z",
             "anomalous_pixels": 0,
-            "clear_confidence_percent": 87,
-            "clear_percent": 96,
-            "cloud_cover": 0,
-            "cloud_percent": 0,
-            "ground_control": true,
-            "gsd": 4.1,
-            "heavy_haze_percent": 0,
-            "instrument": "PSB.SD",
-            "item_type": "PSScene",
-            "light_haze_percent": 3,
-            "pixel_resolution": 3,
-            "provider": "planetscope",
-            "published": "2023-04-03T14:45:28Z",
-            "publishing_stage": "finalized",
-            "quality_category": "standard",
-            "satellite_azimuth": 113.4,
-            "satellite_id": "24b4",
-            "shadow_percent": 1,
-            "snow_ice_percent": 0,
-            "strip_id": "6405245",
-            "sun_azimuth": 149.1,
-            "sun_elevation": 32.9,
-            "updated": "2023-04-04T04:16:01Z",
-            "view_angle": 0.7,
-            "visible_confidence_percent": 67,
-            "visible_percent": 100
-        },
-        "type": "Feature"
-    },
-    {
-        "_links": {
-            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230403_103146_94_24b4",
-            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230403_103146_94_24b4/assets/",
-            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230403_103146_94_24b4/thumb"
-        },
-        "_permissions": [
-            "assets.basic_analytic_4b:download",
-            "assets.basic_analytic_4b_rpc:download",
-            "assets.basic_analytic_4b_xml:download",
-            "assets.basic_analytic_8b:download",
-            "assets.basic_analytic_8b_xml:download",
-            "assets.basic_udm2:download",
-            "assets.ortho_analytic_4b:download",
-            "assets.ortho_analytic_4b_sr:download",
-            "assets.ortho_analytic_4b_xml:download",
-            "assets.ortho_analytic_8b:download",
-            "assets.ortho_analytic_8b_sr:download",
-            "assets.ortho_analytic_8b_xml:download",
-            "assets.ortho_udm2:download",
-            "assets.ortho_visual:download"
-        ],
-        "assets": [
-            "basic_analytic_4b",
-            "basic_analytic_4b_rpc",
-            "basic_analytic_4b_xml",
-            "basic_analytic_8b",
-            "basic_analytic_8b_xml",
-            "basic_udm2",
-            "ortho_analytic_4b",
-            "ortho_analytic_4b_sr",
-            "ortho_analytic_4b_xml",
-            "ortho_analytic_8b",
-            "ortho_analytic_8b_sr",
-            "ortho_analytic_8b_xml",
-            "ortho_udm2",
-            "ortho_visual"
-        ],
-        "geometry": {
-            "coordinates": [
-                [
-                    [
-                        -3.214476806363635,
-                        58.91250104251021
-                    ],
-                    [
-                        -3.3172618129976446,
-                        58.72624645797659
-                    ],
-                    [
-                        -2.719647366221801,
-                        58.63608744743678
-                    ],
-                    [
-                        -2.6140566859474057,
-                        58.82148486127349
-                    ],
-                    [
-                        -3.214476806363635,
-                        58.91250104251021
-                    ]
-                ]
-            ],
-            "type": "Polygon"
-        },
-        "id": "20230403_103146_94_24b4",
-        "properties": {
-            "acquired": "2023-04-03T10:31:46.941942Z",
-            "anomalous_pixels": 0,
-            "clear_confidence_percent": 90,
-            "clear_percent": 99,
-            "cloud_cover": 0,
-            "cloud_percent": 0,
-            "ground_control": true,
-            "gsd": 4.1,
-            "heavy_haze_percent": 0,
-            "instrument": "PSB.SD",
-            "item_type": "PSScene",
-            "light_haze_percent": 1,
-            "pixel_resolution": 3,
-            "provider": "planetscope",
-            "published": "2023-04-03T14:41:59Z",
-            "publishing_stage": "finalized",
-            "quality_category": "standard",
-            "satellite_azimuth": 113.2,
-            "satellite_id": "24b4",
-            "shadow_percent": 0,
-            "snow_ice_percent": 0,
-            "strip_id": "6405245",
-            "sun_azimuth": 149,
-            "sun_elevation": 33,
-            "updated": "2023-04-04T04:16:27Z",
-            "view_angle": 0.7,
-            "visible_confidence_percent": 67,
-            "visible_percent": 100
-        },
-        "type": "Feature"
-    },
-    {
-        "_links": {
-            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230315_110150_07_2470",
-            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230315_110150_07_2470/assets/",
-            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230315_110150_07_2470/thumb"
-        },
-        "_permissions": [
-            "assets.basic_analytic_4b:download",
-            "assets.basic_analytic_4b_rpc:download",
-            "assets.basic_analytic_4b_xml:download",
-            "assets.basic_analytic_8b:download",
-            "assets.basic_analytic_8b_xml:download",
-            "assets.basic_udm2:download",
-            "assets.ortho_analytic_4b:download",
-            "assets.ortho_analytic_4b_sr:download",
-            "assets.ortho_analytic_4b_xml:download",
-            "assets.ortho_analytic_8b:download",
-            "assets.ortho_analytic_8b_sr:download",
-            "assets.ortho_analytic_8b_xml:download",
-            "assets.ortho_udm2:download",
-            "assets.ortho_visual:download"
-        ],
-        "assets": [
-            "basic_analytic_4b",
-            "basic_analytic_4b_rpc",
-            "basic_analytic_4b_xml",
-            "basic_analytic_8b",
-            "basic_analytic_8b_xml",
-            "basic_udm2",
-            "ortho_analytic_4b",
-            "ortho_analytic_4b_sr",
-            "ortho_analytic_4b_xml",
-            "ortho_analytic_8b",
-            "ortho_analytic_8b_sr",
-            "ortho_analytic_8b_xml",
-            "ortho_udm2",
-            "ortho_visual"
-        ],
-        "geometry": {
-            "coordinates": [
-                [
-                    [
-                        -3.5644288088954155,
-                        59.09624959875121
-                    ],
-                    [
-                        -3.6594849826501665,
-                        58.91853419088656
-                    ],
-                    [
-                        -3.0849511520927826,
-                        58.835967006107374
-                    ],
-                    [
-                        -2.9876096562448455,
-                        59.01175542973464
-                    ],
-                    [
-                        -3.5644288088954155,
-                        59.09624959875121
-                    ]
-                ]
-            ],
-            "type": "Polygon"
-        },
-        "id": "20230315_110150_07_2470",
-        "properties": {
-            "acquired": "2023-03-15T11:01:50.076785Z",
-            "anomalous_pixels": 0,
-            "clear_confidence_percent": 88,
-            "clear_percent": 88,
+            "clear_confidence_percent": 94,
+            "clear_percent": 92,
             "cloud_cover": 0.07,
             "cloud_percent": 7,
-            "ground_control": true,
-            "gsd": 3.9,
+            "ground_control": false,
+            "gsd": 4,
             "heavy_haze_percent": 0,
             "instrument": "PSB.SD",
             "item_type": "PSScene",
             "light_haze_percent": 0,
             "pixel_resolution": 3,
             "provider": "planetscope",
-            "published": "2023-03-15T23:34:28Z",
-            "publishing_stage": "finalized",
+            "published": "2023-04-14T13:06:03Z",
+            "publishing_stage": "preview",
             "quality_category": "test",
-            "satellite_azimuth": 104.8,
-            "satellite_id": "2470",
+            "satellite_azimuth": 282.6,
+            "satellite_id": "24c5",
             "shadow_percent": 1,
-            "snow_ice_percent": 5,
-            "strip_id": "6359101",
-            "sun_azimuth": 158.2,
-            "sun_elevation": 27.1,
-            "updated": "2023-03-17T00:19:03Z",
-            "view_angle": 5,
-            "visible_confidence_percent": 63,
+            "snow_ice_percent": 0,
+            "strip_id": "6433992",
+            "sun_azimuth": 148.8,
+            "sun_elevation": 37,
+            "updated": "2023-04-15T04:25:05Z",
+            "view_angle": 2.3,
+            "visible_confidence_percent": 73,
             "visible_percent": 93
         },
         "type": "Feature"
     },
     {
         "_links": {
-            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230309_110532_19_247b",
-            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230309_110532_19_247b/assets/",
-            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230309_110532_19_247b/thumb"
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230413_111205_12_2414",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230413_111205_12_2414/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230413_111205_12_2414/thumb"
         },
         "_permissions": [
             "assets.basic_analytic_4b:download",
@@ -1021,37 +4255,135 @@
             "coordinates": [
                 [
                     [
-                        -3.4556595335456857,
-                        58.96923605320339
+                        -2.720320067313579,
+                        58.91894058093063
                     ],
                     [
-                        -3.5556286855285735,
-                        58.79150183598487
+                        -2.806697278763555,
+                        58.75366648345231
                     ],
                     [
-                        -2.983855786790275,
-                        58.703515556174665
+                        -2.276338862303014,
+                        58.68001130916821
                     ],
                     [
-                        -2.88090244130874,
-                        58.880759401356976
+                        -2.189917013163228,
+                        58.8426384915221
                     ],
                     [
-                        -3.4556595335456857,
-                        58.96923605320339
+                        -2.720320067313579,
+                        58.91894058093063
                     ]
                 ]
             ],
             "type": "Polygon"
         },
-        "id": "20230309_110532_19_247b",
+        "id": "20230413_111205_12_2414",
         "properties": {
-            "acquired": "2023-03-09T11:05:32.196512Z",
+            "acquired": "2023-04-13T11:12:05.128171Z",
             "anomalous_pixels": 0,
-            "clear_confidence_percent": 86,
-            "clear_percent": 67,
-            "cloud_cover": 0.04,
-            "cloud_percent": 4,
+            "clear_confidence_percent": 82,
+            "clear_percent": 90,
+            "cloud_cover": 0.08,
+            "cloud_percent": 8,
+            "ground_control": true,
+            "gsd": 3.6,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-14T00:46:19Z",
+            "publishing_stage": "finalized",
+            "quality_category": "test",
+            "satellite_azimuth": 105,
+            "satellite_id": "2414",
+            "shadow_percent": 1,
+            "snow_ice_percent": 0,
+            "strip_id": "6432916",
+            "sun_azimuth": 162.1,
+            "sun_elevation": 39.2,
+            "updated": "2023-04-14T12:58:35Z",
+            "view_angle": 5,
+            "visible_confidence_percent": 69,
+            "visible_percent": 92
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230413_110916_08_2424",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230413_110916_08_2424/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230413_110916_08_2424/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -3.253304072584859,
+                        58.763355268453545
+                    ],
+                    [
+                        -3.3517554888602668,
+                        58.58691486464013
+                    ],
+                    [
+                        -2.7863004533173386,
+                        58.49988401960989
+                    ],
+                    [
+                        -2.6851071579991324,
+                        58.676255319151586
+                    ],
+                    [
+                        -3.253304072584859,
+                        58.763355268453545
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230413_110916_08_2424",
+        "properties": {
+            "acquired": "2023-04-13T11:09:16.086048Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 94,
+            "clear_percent": 92,
+            "cloud_cover": 0.05,
+            "cloud_percent": 5,
             "ground_control": true,
             "gsd": 3.9,
             "heavy_haze_percent": 0,
@@ -1060,28 +4392,28 @@
             "light_haze_percent": 0,
             "pixel_resolution": 3,
             "provider": "planetscope",
-            "published": "2023-03-10T00:49:47Z",
+            "published": "2023-04-13T23:50:43Z",
             "publishing_stage": "finalized",
-            "quality_category": "test",
-            "satellite_azimuth": 282.3,
-            "satellite_id": "247b",
-            "shadow_percent": 1,
-            "snow_ice_percent": 27,
-            "strip_id": "6343501",
-            "sun_azimuth": 158.3,
-            "sun_elevation": 24.8,
-            "updated": "2023-03-10T08:16:00Z",
-            "view_angle": 1.1,
-            "visible_confidence_percent": 75,
-            "visible_percent": 96
+            "quality_category": "standard",
+            "satellite_azimuth": 281.9,
+            "satellite_id": "2424",
+            "shadow_percent": 3,
+            "snow_ice_percent": 0,
+            "strip_id": "6432397",
+            "sun_azimuth": 159.3,
+            "sun_elevation": 38.9,
+            "updated": "2023-04-14T06:59:38Z",
+            "view_angle": 2.1,
+            "visible_confidence_percent": 84,
+            "visible_percent": 95
         },
         "type": "Feature"
     },
     {
         "_links": {
-            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230309_110530_00_247b",
-            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230309_110530_00_247b/assets/",
-            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230309_110530_00_247b/thumb"
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230413_102807_06_24c7",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230413_102807_06_24c7/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230413_102807_06_24c7/thumb"
         },
         "_permissions": [
             "assets.basic_analytic_4b:download",
@@ -1119,67 +4451,67 @@
             "coordinates": [
                 [
                     [
-                        -3.3794839591643466,
-                        59.10365265029347
+                        -2.9771127623341913,
+                        58.550196658190856
                     ],
                     [
-                        -3.480172605671754,
-                        58.92595141579413
+                        -3.076301236563981,
+                        58.36280126759555
                     ],
                     [
-                        -2.9063706933504596,
-                        58.83770907809456
+                        -2.48262502585682,
+                        58.27643217413762
                     ],
                     [
-                        -2.8025019659292307,
-                        59.01491545394179
+                        -2.381082873388517,
+                        58.46223385313444
                     ],
                     [
-                        -3.3794839591643466,
-                        59.10365265029347
+                        -2.9771127623341913,
+                        58.550196658190856
                     ]
                 ]
             ],
             "type": "Polygon"
         },
-        "id": "20230309_110530_00_247b",
+        "id": "20230413_102807_06_24c7",
         "properties": {
-            "acquired": "2023-03-09T11:05:30.001033Z",
+            "acquired": "2023-04-13T10:28:07.065438Z",
             "anomalous_pixels": 0,
-            "clear_confidence_percent": 85,
-            "clear_percent": 47,
-            "cloud_cover": 0.01,
-            "cloud_percent": 1,
-            "ground_control": true,
-            "gsd": 3.9,
+            "clear_confidence_percent": 89,
+            "clear_percent": 91,
+            "cloud_cover": 0.08,
+            "cloud_percent": 8,
+            "ground_control": false,
+            "gsd": 4.1,
             "heavy_haze_percent": 0,
             "instrument": "PSB.SD",
             "item_type": "PSScene",
             "light_haze_percent": 0,
             "pixel_resolution": 3,
             "provider": "planetscope",
-            "published": "2023-03-10T00:48:04Z",
-            "publishing_stage": "finalized",
+            "published": "2023-04-13T13:22:15Z",
+            "publishing_stage": "preview",
             "quality_category": "test",
-            "satellite_azimuth": 282.1,
-            "satellite_id": "247b",
+            "satellite_azimuth": 105.1,
+            "satellite_id": "24c7",
             "shadow_percent": 1,
-            "snow_ice_percent": 51,
-            "strip_id": "6343501",
-            "sun_azimuth": 158.4,
-            "sun_elevation": 24.7,
-            "updated": "2023-03-10T08:15:58Z",
-            "view_angle": 1.1,
-            "visible_confidence_percent": 76,
-            "visible_percent": 99
+            "snow_ice_percent": 0,
+            "strip_id": "6431693",
+            "sun_azimuth": 148.3,
+            "sun_elevation": 37.1,
+            "updated": "2023-04-14T04:28:23Z",
+            "view_angle": 4.6,
+            "visible_confidence_percent": 73,
+            "visible_percent": 92
         },
         "type": "Feature"
     },
     {
         "_links": {
-            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230308_111918_55_240c",
-            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230308_111918_55_240c/assets/",
-            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230308_111918_55_240c/thumb"
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230413_102804_77_24c7",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230413_102804_77_24c7/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230413_102804_77_24c7/thumb"
         },
         "_permissions": [
             "assets.basic_analytic_4b:download",
@@ -1217,67 +4549,165 @@
             "coordinates": [
                 [
                     [
-                        -3.3434010606242035,
-                        58.93222174531509
+                        -2.9028401324058284,
+                        58.69036605398256
                     ],
                     [
-                        -3.4403241821282657,
-                        58.76366887011587
+                        -3.002787251886652,
+                        58.502719876142976
                     ],
                     [
-                        -2.8948148406486625,
-                        58.67764878192855
+                        -2.4066680604380686,
+                        58.416372763952005
                     ],
                     [
-                        -2.795069793229987,
-                        58.846745778460516
+                        -2.3049937473707676,
+                        58.60206127996126
                     ],
                     [
-                        -3.3434010606242035,
-                        58.93222174531509
+                        -2.9028401324058284,
+                        58.69036605398256
                     ]
                 ]
             ],
             "type": "Polygon"
         },
-        "id": "20230308_111918_55_240c",
+        "id": "20230413_102804_77_24c7",
         "properties": {
-            "acquired": "2023-03-08T11:19:18.559326Z",
+            "acquired": "2023-04-13T10:28:04.778373Z",
             "anomalous_pixels": 0,
-            "clear_confidence_percent": 86,
-            "clear_percent": 66,
+            "clear_confidence_percent": 91,
+            "clear_percent": 94,
+            "cloud_cover": 0.05,
+            "cloud_percent": 5,
+            "ground_control": false,
+            "gsd": 4.1,
+            "heavy_haze_percent": 0,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-13T13:22:07Z",
+            "publishing_stage": "finalized",
+            "quality_category": "test",
+            "satellite_azimuth": 105.2,
+            "satellite_id": "24c7",
+            "shadow_percent": 1,
+            "snow_ice_percent": 0,
+            "strip_id": "6431693",
+            "sun_azimuth": 148.4,
+            "sun_elevation": 37,
+            "updated": "2023-04-14T04:28:45Z",
+            "view_angle": 4.5,
+            "visible_confidence_percent": 74,
+            "visible_percent": 95
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230413_102802_49_24c7",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230413_102802_49_24c7/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230413_102802_49_24c7/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -2.8279198141893067,
+                        58.83082977995396
+                    ],
+                    [
+                        -2.9274550086321907,
+                        58.64440169014454
+                    ],
+                    [
+                        -2.3300591842680074,
+                        58.55739117854296
+                    ],
+                    [
+                        -2.228306372214775,
+                        58.742019061049916
+                    ],
+                    [
+                        -2.8279198141893067,
+                        58.83082977995396
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230413_102802_49_24c7",
+        "properties": {
+            "acquired": "2023-04-13T10:28:02.491307Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 94,
+            "clear_percent": 97,
             "cloud_cover": 0.03,
             "cloud_percent": 3,
-            "ground_control": true,
-            "gsd": 3.7,
+            "ground_control": false,
+            "gsd": 4.1,
             "heavy_haze_percent": 0,
             "instrument": "PSB.SD",
             "item_type": "PSScene",
             "light_haze_percent": 0,
             "pixel_resolution": 3,
             "provider": "planetscope",
-            "published": "2023-03-09T00:17:27Z",
+            "published": "2023-04-13T13:21:24Z",
             "publishing_stage": "finalized",
             "quality_category": "test",
-            "satellite_azimuth": 285.1,
-            "satellite_id": "240c",
-            "shadow_percent": 1,
-            "snow_ice_percent": 31,
-            "strip_id": "6340699",
-            "sun_azimuth": 161.6,
-            "sun_elevation": 24.9,
-            "updated": "2023-03-10T10:29:25Z",
-            "view_angle": 4.9,
-            "visible_confidence_percent": 72,
+            "satellite_azimuth": 105.4,
+            "satellite_id": "24c7",
+            "shadow_percent": 0,
+            "snow_ice_percent": 0,
+            "strip_id": "6431693",
+            "sun_azimuth": 148.5,
+            "sun_elevation": 36.9,
+            "updated": "2023-04-14T04:28:25Z",
+            "view_angle": 4.5,
+            "visible_confidence_percent": 75,
             "visible_percent": 97
         },
         "type": "Feature"
     },
     {
         "_links": {
-            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230308_102952_20_2429",
-            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230308_102952_20_2429/assets/",
-            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230308_102952_20_2429/thumb"
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230410_102746_74_241d",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230410_102746_74_241d/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230410_102746_74_241d/thumb"
         },
         "_permissions": [
             "assets.basic_analytic_4b:download",
@@ -1315,38 +4745,38 @@
             "coordinates": [
                 [
                     [
-                        -3.208766907390285,
-                        58.954801521235304
+                        -2.55383900070464,
+                        59.18776093204186
                     ],
                     [
-                        -3.3088313360726613,
-                        58.78147915107756
+                        -2.6539949401924288,
+                        59.01533291224904
                     ],
                     [
-                        -2.7482226870787634,
-                        58.692379628931995
+                        -2.08995381103301,
+                        58.92635280833244
                     ],
                     [
-                        -2.644549561776206,
-                        58.86604458086718
+                        -1.9863923960150751,
+                        59.09940364539295
                     ],
                     [
-                        -3.208766907390285,
-                        58.954801521235304
+                        -2.55383900070464,
+                        59.18776093204186
                     ]
                 ]
             ],
             "type": "Polygon"
         },
-        "id": "20230308_102952_20_2429",
+        "id": "20230410_102746_74_241d",
         "properties": {
-            "acquired": "2023-03-08T10:29:52.202137Z",
+            "acquired": "2023-04-10T10:27:46.744889Z",
             "anomalous_pixels": 0,
-            "clear_confidence_percent": 86,
-            "clear_percent": 72,
-            "cloud_cover": 0.03,
-            "cloud_percent": 2,
-            "ground_control": true,
+            "clear_confidence_percent": 46,
+            "clear_percent": 12,
+            "cloud_cover": 0.04,
+            "cloud_percent": 4,
+            "ground_control": false,
             "gsd": 3.8,
             "heavy_haze_percent": 0,
             "instrument": "PSB.SD",
@@ -1354,20 +4784,118 @@
             "light_haze_percent": 0,
             "pixel_resolution": 3,
             "provider": "planetscope",
-            "published": "2023-03-08T23:37:19Z",
-            "publishing_stage": "finalized",
+            "published": "2023-04-10T20:55:52Z",
+            "publishing_stage": "preview",
             "quality_category": "test",
-            "satellite_azimuth": 284,
-            "satellite_id": "2429",
+            "satellite_azimuth": 284.3,
+            "satellite_id": "241d",
             "shadow_percent": 0,
-            "snow_ice_percent": 25,
-            "strip_id": "6340387",
-            "sun_azimuth": 148.6,
-            "sun_elevation": 22.2,
-            "updated": "2023-03-09T09:58:44Z",
-            "view_angle": 5,
-            "visible_confidence_percent": 73,
-            "visible_percent": 97
+            "snow_ice_percent": 84,
+            "strip_id": "6424565",
+            "sun_azimuth": 147.4,
+            "sun_elevation": 35,
+            "updated": "2023-04-11T04:07:31Z",
+            "view_angle": 4.8,
+            "visible_confidence_percent": 59,
+            "visible_percent": 96
+        },
+        "type": "Feature"
+    },
+    {
+        "_links": {
+            "_self": "https://api.planet.com/data/v1/item-types/PSScene/items/20230410_102744_53_241d",
+            "assets": "https://api.planet.com/data/v1/item-types/PSScene/items/20230410_102744_53_241d/assets/",
+            "thumbnail": "https://tiles.planet.com/data/v1/item-types/PSScene/items/20230410_102744_53_241d/thumb"
+        },
+        "_permissions": [
+            "assets.basic_analytic_4b:download",
+            "assets.basic_analytic_4b_rpc:download",
+            "assets.basic_analytic_4b_xml:download",
+            "assets.basic_analytic_8b:download",
+            "assets.basic_analytic_8b_xml:download",
+            "assets.basic_udm2:download",
+            "assets.ortho_analytic_4b:download",
+            "assets.ortho_analytic_4b_sr:download",
+            "assets.ortho_analytic_4b_xml:download",
+            "assets.ortho_analytic_8b:download",
+            "assets.ortho_analytic_8b_sr:download",
+            "assets.ortho_analytic_8b_xml:download",
+            "assets.ortho_udm2:download",
+            "assets.ortho_visual:download"
+        ],
+        "assets": [
+            "basic_analytic_4b",
+            "basic_analytic_4b_rpc",
+            "basic_analytic_4b_xml",
+            "basic_analytic_8b",
+            "basic_analytic_8b_xml",
+            "basic_udm2",
+            "ortho_analytic_4b",
+            "ortho_analytic_4b_sr",
+            "ortho_analytic_4b_xml",
+            "ortho_analytic_8b",
+            "ortho_analytic_8b_sr",
+            "ortho_analytic_8b_xml",
+            "ortho_udm2",
+            "ortho_visual"
+        ],
+        "geometry": {
+            "coordinates": [
+                [
+                    [
+                        -2.4731142278147686,
+                        59.32434484511158
+                    ],
+                    [
+                        -2.5740778771302657,
+                        59.15197096476244
+                    ],
+                    [
+                        -2.00790282889337,
+                        59.06265450100045
+                    ],
+                    [
+                        -1.9035000472365378,
+                        59.23564587202736
+                    ],
+                    [
+                        -2.4731142278147686,
+                        59.32434484511158
+                    ]
+                ]
+            ],
+            "type": "Polygon"
+        },
+        "id": "20230410_102744_53_241d",
+        "properties": {
+            "acquired": "2023-04-10T10:27:44.537079Z",
+            "anomalous_pixels": 0,
+            "clear_confidence_percent": 44,
+            "clear_percent": 25,
+            "cloud_cover": 0.05,
+            "cloud_percent": 3,
+            "ground_control": false,
+            "gsd": 3.8,
+            "heavy_haze_percent": 2,
+            "instrument": "PSB.SD",
+            "item_type": "PSScene",
+            "light_haze_percent": 0,
+            "pixel_resolution": 3,
+            "provider": "planetscope",
+            "published": "2023-04-10T20:54:30Z",
+            "publishing_stage": "preview",
+            "quality_category": "test",
+            "satellite_azimuth": 284.2,
+            "satellite_id": "241d",
+            "shadow_percent": 0,
+            "snow_ice_percent": 70,
+            "strip_id": "6424565",
+            "sun_azimuth": 147.6,
+            "sun_elevation": 34.9,
+            "updated": "2023-04-11T04:07:26Z",
+            "view_angle": 4.8,
+            "visible_confidence_percent": 56,
+            "visible_percent": 95
         },
         "type": "Feature"
     }
