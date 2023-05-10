@@ -7,6 +7,7 @@ from planet import Auth, Session
 from typing import List
 from src.utils import Loader
 from src.data import filter_data
+from planet.exceptions import ClientError
 
 # Loading the config file
 logging.config.fileConfig('logger.ini')
@@ -42,9 +43,17 @@ async def data_download(
             if not asset_type in asset_types:
                 raise Exception(f"{scene}\nAbove item does not have Asset:{asset_type}")                            
 
-            loading = Loader("Getting the Asset.....", "Asset retrieved...")
-            asset_desc = await cl.get_asset(item_type_id=item_type,item_id=scene_id, asset_type_id=asset_type)
-            loading.stop()
+            try:
+                loading = Loader("Getting the Asset.....", "Asset retrieved...")
+                asset_desc = await cl.get_asset(item_type_id=item_type,item_id=scene_id, asset_type_id=asset_type)
+                loading.stop()
+
+            except ClientError as e:
+                if str(e) == 'asset missing ["location"] entry. Is asset active?':
+                    pass
+                else:
+                    raise Exception
+
 
             # Activate Asset
             loading = Loader("Activating the asset, may take some time....", "That was fast!")
@@ -59,17 +68,15 @@ async def data_download(
             asset_path = await cl.download_asset(asset=asset_desc, directory=download_dir, overwrite=True)
             loading.stop()
 
-            await sess.aclose()
+        await sess.aclose()
+        logging.info("Session closed")
 
 if __name__ == "__main__":
     planet_items_scenes_json = 'data/planet_items_scenes_json/stanlow.json'
     download_dir = '/home/vardh/tmp/planet/stanlow'
     scene_id_list = [
         '20230420_111158_20_2402',
-        '20230420_111156_17_2402',
-        '20230420_105803_28_2479']
+        '20230420_111156_17_2402']
     data = filter_data(planet_items_scenes_json)
     scenes_list = data.filter_with_scene_id(scene_id_list)
-    asyncio.run(data_download(
-        scenes_list = scenes_list, 
-        download_dir = download_dir))
+    asyncio.run(data_download(scenes_list = scenes_list, download_dir = download_dir))
