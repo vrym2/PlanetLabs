@@ -58,7 +58,7 @@ class planet_search:
 
 if __name__ == "__main__":
     start_date = "2023-03-01"
-    end_date = "2023-04-18"
+    end_date = "2023-05-09"
     output_dir = "data/planet_json_reqs"
     oil_terminal = OilTerminalsBBox()
     location_data = oil_terminal.location_names()

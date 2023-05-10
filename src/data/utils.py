@@ -12,7 +12,7 @@ from shapely.geometry import mapping
 
 class OilTerminalsBBox:
     """Class functions of terminal data for Planet"""
-    terminal_file_path = '/home/vardh/gcp_project/planet_UoL/data/uk_oil_terminals.xlsx'
+    terminal_file_path = '/home/vardh/gcp_projects/planet_UoL/data/uk_oil_terminals.xlsx'
     assert os.path.exists(terminal_file_path) is True
 
     def __init__(self) -> None:
@@ -31,7 +31,7 @@ class OilTerminalsBBox:
     def bounding_box(
             center_lat: np.float64 = None,          
             center_lon: np.float64 = None, 
-            half_side: np.int64 = 10, # in Km
+            half_side: np.int64 = 100, # in Km
             ):
         """
         Function that gives WKT of a polygon from a center lon, lat
