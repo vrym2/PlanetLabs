@@ -21,8 +21,3 @@ class filter_data:
                           if scene['id'] in scene_id_list]
         self.id_scenes = itemgetter(*self.id_scene_indices)(self.items_list)
         return self.id_scenes
-
-
-
-
-
