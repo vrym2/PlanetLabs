@@ -6,7 +6,7 @@ import logging.config
 from planet import Auth, Session
 from typing import List
 from src.utils import Loader
-from src.data import filter_data
+from .retreive import filter_data
 from planet.exceptions import ClientError
 
 # Loading the config file
