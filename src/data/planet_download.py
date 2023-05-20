@@ -5,8 +5,8 @@ import logging
 import logging.config
 from planet import Auth, Session
 from typing import List
-from src.utils import Loader
-from .retreive import filter_data
+from planet_UoL.src.utils import Loader
+from planet_UoL.src.data import filter_data
 from planet.exceptions import ClientError
 
 # Loading the config file
@@ -73,10 +73,11 @@ async def data_download(
 
 if __name__ == "__main__":
     planet_items_scenes_json = 'data/planet_items_scenes_json/stanlow.json'
-    download_dir = '/home/vardh/tmp/planet/stanlow'
-    scene_id_list = [
-        '20230420_111158_20_2402',
-        '20230420_111156_17_2402']
+    download_dir = 'data/PS_Scenes/stanlow'
+
     data = filter_data(planet_items_scenes_json)
-    scenes_list = data.filter_with_scene_id(scene_id_list)
-    asyncio.run(data_download(scenes_list = scenes_list, download_dir = download_dir))
+    scenes_list = data.filter_with_scene_id(scene_id_list= ['20230420_105803_28_2479'])
+    try:
+        asyncio.run(data_download(scenes_list = [scenes_list], download_dir = download_dir))
+    except Exception:
+        asyncio.run(data_download(scenes_list = [scenes_list], download_dir = download_dir))

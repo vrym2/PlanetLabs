@@ -4,7 +4,7 @@ from planet import Auth
 
 import logging
 import logging.config
-logging.config.fileConfig('planet_UoL/logger.ini')
+logging.config.fileConfig('logger.ini')
 
 def PlanetAuth()-> None:
     """Authenticating Planet with API KEY"""

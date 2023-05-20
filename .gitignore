@@ -134,3 +134,4 @@ dmypy.json
 # Workspace
 planet_UoL.code-workspace
 *.xlsx
+data/PS_Scenes/*

@@ -30,6 +30,28 @@ $ pip install .
 
 Follow the (instructions)[https://planet-sdk-for-python-v2.readthedocs.io/en/latest/get-started/quick-start-guide/] to install `planet` API in the `venv`
 
+## Workflow
+```
+├── data
+│   ├── planet_items_scenes_json
+│   └── planet_json_reqs
+├── src
+│   ├── data
+│   │   ├── auth.py
+│   │   ├── data_request.py
+│   │   ├── json_request.py
+│   │   ├── planet_download.py
+│   │   └── retrieve.py
+│   ├── images
+│   └── utils
+└── tests
+    └── data
+```
+
+```Authentication(auth.py)--->Building JSON request file(json_request.py)---->retrieving results(data_request.py)--->downloading data(planet_download.py)```
+
+**Note**- Workflow must be followed in order to download the planet data. WHen downloading, it takes time to retrieve the assets, so patience is important. After retrieving assets, the program will fail, saying that `Is asset active?`, the asset will be downloaded when the script is run again.
+
 ## Change the default python version
 ```
 $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.4 1 #python3.4 is given 1st priority
