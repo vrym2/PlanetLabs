@@ -1,13 +1,14 @@
 import numpy as np
-import logging
-import logging.config
 from datetime import datetime
+
 from planet import data_filter
 
 from src.data import OilTerminalsBBox
 from src.utils import write_json_data
 
 # Loading the config file
+import logging
+import logging.config
 logging.config.fileConfig('logger.ini')
 
 class planet_search:

@@ -2,12 +2,13 @@ import os
 import json
 import asyncio
 from typing import Dict
-import logging
-import logging.config
+
 from planet import Auth, Session
 from src.utils import write_json_data
 
 # Loading the config file
+import logging
+import logging.config
 logging.config.fileConfig('logger.ini')
 
 
