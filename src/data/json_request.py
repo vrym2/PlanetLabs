@@ -4,7 +4,8 @@ from datetime import datetime
 from planet import data_filter
 
 from planet_UoL.src.utils import write_json_data
-from UK_oi
+from UK_oil_terminals.src import OilTerminals
+
 # Loading the config file
 import logging
 import logging.config
@@ -32,7 +33,7 @@ class planet_search:
         end_date = datetime.strptime(end_date, "%Y-%m-%d")
 
         # Location bounding box
-        geom_dict = OilTerminalsBBox()
+        geom_dict = OilTerminals()
         geom_dict.location_names()
         geom_dict = geom_dict.geojson_data()
         geom_dict = geom_dict[self.location_name]
@@ -58,9 +59,9 @@ class planet_search:
 
 if __name__ == "__main__":
     start_date = "2023-03-01"
-    end_date = "2023-05-09"
+    end_date = "2023-05-19"
     output_dir = "data/planet_json_reqs"
-    oil_terminal = OilTerminalsBBox()
+    oil_terminal = OilTerminals()
     location_data = oil_terminal.location_names()
     for location_name in location_data:
         search = planet_search(
