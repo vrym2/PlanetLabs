@@ -3,9 +3,8 @@ from datetime import datetime
 
 from planet import data_filter
 
-from src.data import OilTerminalsBBox
-from src.utils import write_json_data
-
+from planet_UoL.src.utils import write_json_data
+from UK_oi
 # Loading the config file
 import logging
 import logging.config

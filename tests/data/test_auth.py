@@ -1,4 +1,4 @@
-from src.data import PlanetAuth
+from planet_UoL.src.data import PlanetAuth
 
 def test_planet_auth():
     """Testing planet authentication"""
