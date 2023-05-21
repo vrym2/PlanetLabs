@@ -72,8 +72,8 @@ async def data_download(
         logging.info("Session closed")
 
 if __name__ == "__main__":
-    planet_items_scenes_json = 'data/planet_items_scenes_json/stanlow.json'
-    download_dir = 'data/PS_Scenes/stanlow'
+    planet_items_scenes_json = 'data/planet_items_scenes_json/immingham.json'
+    download_dir = 'data/PS_Scenes/immingham'
 
     data = filter_data(planet_items_scenes_json)
     scenes_list = data.filter_with_scene_id(scene_id_list= ['20230420_105803_28_2479'])
